@@ -1,0 +1,43 @@
+\documentclass[eng]{tudscrreprt}
+
+
+\usepackage[T1]{fontenc}
+\usepackage{babel}
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage{gensymb}
+\usepackage{hyperref}
+
+\begin{document}
+
+\faculty{Physik}
+\institute{IKTP}
+\date{26.03.2021}
+\author{Georg Schmieder}
+\title{Sensetivity of EFT Dim-8 Operators for Resonaces in Vector Boson Scattering}
+\supervisor{Dr. Frank Siegert}
+\maketitle
+
+\tableofcontents
+
+\pagebreak
+\chapter{Introduction}
+    \subfile{sections/Introduction.tex}
+
+\pagebreak
+\chapter{Theoreticle Foundation}
+    \section{Effective Field Theory}
+        \subfile{sections/EFT.tex}
+    \pagebreak
+    \section{Vector Boson Scattering}
+        \subfile{sections/VBS.tex}
+
+    \pagebreak
+    \section{GM H5 Model}
+        \subfile{sections/GM_H5.tex}
+        
+\pagebreak
+\chapter{Event Selection}
+    \subfile{sections/Event_selection.tex}
+
+\end{document}
