@@ -1,5 +1,6 @@
 \documentclass[english]{tudscrreprt}
 
+\usepackage[backend=biber,style=alphabetic,sorting=ynt]{biblatex}
 \usepackage[T1]{fontenc}
 \usepackage[english]{babel}
 \selectlanguage{english}
@@ -8,6 +9,7 @@
 \usepackage{gensymb}
 \usepackage{hyperref}
 \usepackage{feynmf}
+\addbibresource{bib.bib}
 
 \begin{document}
 
@@ -40,5 +42,6 @@
 \pagebreak
 \chapter{Event Selection}
     \subfile{sections/Event_selection.tex}
+
 
 \end{document}
