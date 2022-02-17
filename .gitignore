@@ -2,8 +2,10 @@
 *.aux
 *.fls
 *.log
-*.synctex.gz
+*.gz
 *.bbl
 *.bcl
 *.lot
 *.out
+Presentation/
+Presentation_old/

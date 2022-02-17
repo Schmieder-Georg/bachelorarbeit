@@ -3,7 +3,46 @@
 \begin{document}
 \label{sec:Event_selection}
 In order to get a meaningful Result for the Dim-8 operators with the GM H5 Model we have to first reproduce the Measurments
-without the GM H5 Model. The values for the operators are taken from \cite{NEeeeeeed Source} with the Background estimation
-and Event selection from \cite{Collaboration.2018}
+without the GM H5 Model. The values for the operators are taken from \cite{Need Source} with the Background estimation
+and Event selection from \cite{Collaboration.2018} as well as \cite{Bittrich.27.05.2020}.
+Most of the selection described in \cite{Bittrich.27.05.2020} under Object Selection is done in ELCore to produce Recolevel Samples and can't be changed
+in the Common Analysis Framework(CAF) which is used for the Analysis. Since the Samples used in this Analysis are also
+Produced at the TU Dresden it is reasonable to assume that the Samples meet the Object Selection Standard.
+The Event Selection on Recolevel is split into the three phase space regions lllvjj, WZjj and the VBS signal region(VBSSR).
+Even though the regions are different the selection criteria overlap. The WZjj region use the selection criteria of the lllvjj as base and introduces new selection criterias.
+The same is true for the VBSSR which builds upon the WZjj region.
+
+\begin{table}[h]
+    \begin{tabular}{  l c c c }
+        \hline
+        Event selection criterion & lllvjj region & WZjj region & VBSSR\\
+        \hline
+        Event cleaning & $\surd$ & $\surd$ & $\surd$ \\
+        GoodRunList & $\surd$ & $\surd$ & $\surd$ \\
+        Trigger & $\surd$ & $\surd$ & $\surd$ \\
+        Primary Vertex & $\surd$ & $\surd$ & $\surd$ \\
+        lllvjj finale state & & & \\
+        $\geq 2$ jets & $\surd$ & $\surd$ & $\surd$ \\
+        $\geq 3$ Z-Analysis leptons & $\surd$ & $\surd$ & $\surd$ \\
+        One SFOC pair & $\surd$ & $\surd$ & $\surd$ \\
+        $l_{W}$ is in W-Analysis selection & $\surd$ & $\surd$ & $\surd$ \\
+        Transverse momentum of leading leptons & & & \\
+        $p_{T}(l)>25(27) GeV$ & $\surd$ & $\surd$ & $\surd$ \\
+        Transverse momentum of subleading jet & & & \\
+        $p_{T}(j_{2})>40 GeV$ & $\surd$ & $\surd$ & $\surd$ \\
+        \hline
+        $M_{T}(W)>30 GeV$ & & $\surd$ & $\surd$ \\
+        $\lvert M(ll)-91.1876 GeV\rvert < 10 GeV$ & & $\surd$ & $\surd$ \\
+        four Baseline leptons veto & & $\surd$ & $\surd$ \\
+        b-jet veto & & $\surd$ & $\surd$ \\
+        \hline
+        $M(jj)>500 GeV$ & & & $\surd$ \\
+        $\Delta Y(jj) >2$ & & & $\surd$ \\
+        \hline
+    \end{tabular}
+    \centering
+    \caption{Text \cite{Bittrich.27.05.2020}}
+    \label{tab:eventselection}
+\end{table}
 
 \end{document}
