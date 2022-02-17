@@ -8,10 +8,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Effective Field Theory}{4}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Vector Boson Scattering}{6}{section.2.2}%
+\contentsline {subsubsection}{\nonumberline Example Tau Decay}{5}{subsubsection*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}GM H5 Model}{7}{section.2.3}%
+\contentsline {section}{\numberline {2.2}Vector Boson Scattering}{7}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Event Selection}{8}{chapter.3}%
+\contentsline {section}{\numberline {2.3}GM H5 Model}{8}{section.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Event Selection}{9}{chapter.3}%
 \defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

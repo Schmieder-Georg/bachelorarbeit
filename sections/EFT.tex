@@ -39,6 +39,37 @@ For a characteristic heavy scale $\Lambda$ the operators are ordered by there di
 
 The Leading order $D = 4$ term in \ref{eq:L_SMEFT} is the SM Lagrangian while deviations of the SM are described by operators with a dimension $D>4$.
 
+\subsubsection{Example Tau Decay}
+Enrico Fermi proposed 1993 the Fermi Theory in order to describe the $\beta$-decay. His theory was able to describe the
+weak coupling quite well without the former knowledge about the $W^{\pm}$-Boson which was only later theorized in 1968 by Steven Weinberg, Sheldon Glashow and Abdus Salam.
+The $W^{\pm}$-Boson was finally discovered in 1983. 50 years after Fermi's first successful description of an Interaction involving the $W^{\pm}$-Boson.
+Today we would call the Fermi theory the low-energy effective field theory of $W^{\pm}$-Boson.
+Let us now try to create our own Fermi Theory but instead of describing the $\beta$ decay we will look at the $\tau$-decay specifically the decay mode $\tau \rightarrow \nu_{\tau}e^{-}\nu_{e}$.
+Even though we are technically cheating since Fermi didn't have our knowledge about the tensor structure of the Weak interaction in Quantum Field Theory and our knowledge about Feynman diagrams.
+We will start by drawing the Feynamn Diagramm and writing down the Matrix element.
+\begin{center}
+    \feynmandiagram [layered layout, horizontal=a to b] {
+    b -- [boson, edge label'=\(W^{-}\)] c,
+    a [particle=\(\tau^{-}\)] -- [fermion] b -- [fermion] f1 [particle=\(\nu_{\tau}\)],
+    c -- [anti fermion] f2 [particle=\(\overline \nu_{e}\)],
+    c -- [fermion] f3 [particle=\(e^{-}\)],
+    };
+\end{center}
+\begin{equation}
+    -i\mathcal{M}=\frac{g_{W}^{2}}{2} \overline{u}(k_{\nu_{\tau}})\gamma^{\mu}(1-\gamma^{5})u(k_{\tau}) \frac{g_{\mu\sigma}}{k^{2}-m_{W}^{2}} \overline{u}(k_{e})\gamma^{\sigma}(1-\gamma^{5})v(k_{\nu_{e}})
+\end{equation}
+In most low ernergy decay processes the momentum of the intermediate $W^{-}$-Boson is small compared to its mass. Therefore, we can approximate the
+propagator(\ref{eq:Fermi_propergator}). In the Feynman Diagramm this can be expressed by collapsing the properagtor into a single Vertex.
+\begin{equation}
+    \frac{-ig_{\mu\sigma}}{k^{2}-m_{W}^{2}} \xrightarrow{\abs{q}^{2} \ll m_{W}^{2}} \frac{ig_{\mu\sigma}}{m_{W}^{2}} 
+    \label{eq:Fermi_propergator}
+\end{equation}
 
-
+\begin{center}
+        \feynmandiagram [horizontal=d to b] {
+        a -- [fermion] b -- [fermion] c,
+        e -- [fermion] b,
+        b -- [boson] d [particle=\(\tau\)]
+    };
+\end{center}
 \end{document}
