@@ -45,7 +45,7 @@ weak coupling quite well without the former knowledge about the $W^{\pm}$-Boson 
 The $W^{\pm}$-Boson was finally discovered in 1983. 50 years after Fermi's first successful description of an Interaction involving the $W^{\pm}$-Boson.
 Today we would call the Fermi theory the low-energy effective field theory of $W^{\pm}$-Boson.
 Let us now try to create our own Fermi Theory but instead of describing the $\beta$ decay we will look at the $\tau$-decay specifically the decay mode $\tau \rightarrow \nu_{\tau}e^{-}\nu_{e}$.
-Even though we are technically cheating since Fermi didn't have our knowledge about the tensor structure of the Weak interaction in Quantum Field Theory and our knowledge about Feynman diagrams.
+Even though we are technically cheating since Fermi didn't have our knowledge about the tensor structure of the Weak interaction in Quantum Field Theory or our knowledge about Feynman diagrams.
 We will start by drawing the Feynamn Diagramm and writing down the Matrix element.
 \begin{center}
     \feynmandiagram [layered layout, horizontal=a to b] {
@@ -55,21 +55,48 @@ We will start by drawing the Feynamn Diagramm and writing down the Matrix elemen
     c -- [fermion] f3 [particle=\(e^{-}\)],
     };
 \end{center}
+
 \begin{equation}
-    -i\mathcal{M}=\frac{g_{W}^{2}}{2} \overline{u}(k_{\nu_{\tau}})\gamma^{\mu}(1-\gamma^{5})u(k_{\tau}) \frac{g_{\mu\sigma}}{k^{2}-m_{W}^{2}} \overline{u}(k_{e})\gamma^{\sigma}(1-\gamma^{5})v(k_{\nu_{e}})
+    -i\mathcal{M}_{fi}= \left[ \frac{g_{W}}{\sqrt{2}} \overline{u}(k_{\nu_{\tau}})\frac{1}{2}\gamma^{\mu}(1-\gamma^{5})u(k_{\tau}) \right] \frac{g_{\mu\sigma}-\frac{k_{\nu}k_{\sigma}}{m_{W}^{2}}}{k^{2}-m_{W}^{2}} \left[ \frac{g_{W}}{\sqrt{2}} \overline{u}(k_{e})\frac{1}{2}\gamma^{\sigma}(1-\gamma^{5})v(k_{\overline{\nu_{e}}}) \right]
 \end{equation}
+
 In most low ernergy decay processes the momentum of the intermediate $W^{-}$-Boson is small compared to its mass. Therefore, we can approximate the
-propagator(\ref{eq:Fermi_propergator}). In the Feynman Diagramm this can be expressed by collapsing the properagtor into a single Vertex.
+propagator(\ref{eq:Fermi_propergator}) in Orders of the momentum $k$ but we will be writing it in the Matrixelement in Orders
+of mass since these are more interesting to us. In the Feynman Diagramm this can be expressed by collapsing the properagtor into a single Vertex.
+
+\begin{center}
+    \feynmandiagram [horizontal=a to b] {
+    a [particle={\(\tau\)}] -- [fermion] b [blob] -- [fermion] e [particle={\(\nu_{\tau}\)}],
+    c [particle={\(e\)}]-- [fermion] b -- [fermion] d [particle={\(\nu_{e}\)}],
+    };
+\end{center}
 \begin{equation}
-    \frac{-ig_{\mu\sigma}}{k^{2}-m_{W}^{2}} \xrightarrow{\abs{q}^{2} \ll m_{W}^{2}} \frac{ig_{\mu\sigma}}{m_{W}^{2}} 
+    \frac{-ig_{\mu\sigma}-\frac{k_{\nu}k_{\sigma}}{m_{W}^{2}}}{k^{2}-m_{W}^{2}} \xrightarrow{\abs{q}^{2} \ll m_{W}^{2}} \frac{ig_{\mu\sigma}}{m_{W}^{2}} \left( 1 + \frac{k^{2}}{m_{w}^{2}}+\frac{k^{4}}{m_{W}^{6}}+\mathcal{O}(k^6) \right)
     \label{eq:Fermi_propergator}
 \end{equation}
 
-\begin{center}
-        \feynmandiagram [horizontal=d to b] {
-        a -- [fermion] b -- [fermion] c,
-        e -- [fermion] b,
-        b -- [boson] d [particle=\(\tau\)]
-    };
-\end{center}
+\begin{equation}
+    \Rightarrow i\mathcal{M}_{fi}=\frac{g_{W}^{2}}{8 m_{W}^{2}} \left[ \overline{u}(k_{\nu_{\tau}})\gamma^{\mu}(1-\gamma^{5})u(k_{\tau}) \right] g_{\mu\sigma} \left[ \overline{u}(k_{e})\gamma^{\sigma}(1-\gamma^{5})v(k_{\overline{\nu_{e}}}) \right] + \mathcal{O}(m_{W}^{4})
+    \label{eq:Fermi_colapse}
+\end{equation}
+
+Let us now compare our result with the result Fermi would have gotten if he knew about the parity violation discovered by Wu in 1957.
+
+\begin{equation}
+    i\mathcal{M}_{fi} = \frac{G_{F}}{\sqrt{2}} \left[ \overline{u}(k_{\nu_{\tau}})\gamma^{\mu}(1-\gamma^{5})u(k_{\tau}) \right] g_{\mu\sigma} \left[ \overline{u}(k_{e})\gamma^{\sigma}(1-\gamma^{5})v(k_{\overline{\nu_{e}}}) \right]
+    \label{eq:Fermi_the_slim_Fermi}
+\end{equation}
+With $G_{F} \approx 4.5437957\times 10^{14} J^{-2}$ being the Fermi constant which is typically measured in the muon decay. The $1/\sqrt(2)$ is added in order to not change the numerical value of $G_{F}$ while considering the parity violation.
+From equation \ref{eq:Fermi_colapse} and \ref{eq:Fermi_the_slim_Fermi} we get the following result.
+\begin{equation}
+    \frac{G_{F}}{\sqrt{2}} = \frac{g_{W}^{2}}{8 m_{W}^{2}}
+\end{equation}
+We can now use the Fermi Theory for low mass Measurements ($m_{l} \ll m_{W}$) like the tau decay to calculate the Decay width
+by integrating the matrix element squared over the phase space of each finale state particle. I will only quote the result her, sice the acctuale calculations proves to be quite long but can be looked at here \cite{Quelle für Die myon decay rechnung}.
+
+\begin{equation}
+    \Gamma(\tau \rightarrow \nu_{\tau} e^{-} \overline{\nu_{e}}) = \frac{G_{F}^{2} m_{\tau}^{5}}{192 \pi^{3}} f \left(\frac{m_{e}^{2}}{m_{\tau}^{2}} \right) \textnormal{ with } f(x)=1-8x-8x^{3}-x^{4}-12 x^{2} ln(x)
+\end{equation}
+
 \end{document}
+ 
