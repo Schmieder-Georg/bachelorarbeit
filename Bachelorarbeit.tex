@@ -1,50 +1,103 @@
 
-\documentclass[english]{tudscrreprt}
+\input{preamble}
 
-\usepackage[backend=biber,style=alphabetic,sorting=ynt]{biblatex}
-\usepackage[T1]{fontenc}
-\usepackage[english]{babel}
-\selectlanguage{english}
-\usepackage{amsmath}
-\usepackage{physics}
-\usepackage{subfiles}
-\usepackage{graphicx}
-\usepackage{gensymb}
-\usepackage{hyperref}
-\usepackage{xcolor}
-\usepackage{tikz-feynman}
 \addbibresource{bib.bib}
 
 \begin{document}
 
-\faculty{Physic}
-\institute{IKTP}
-\date{26.03.2021}
-\author{Georg Schmieder}
-\title{Sensitivity of EFT Dim-8 Operators for Resonances in Vector Boson Scattering}
-\supervisor{Dr. Frank Siegert}
-\maketitle
-
+% Titelpageseite
+\begin{titlepage}
+    \begin{tabularx}{\linewidth}{X}
+     \includegraphics[width=6cm]{TU_Logo_SW} \\\hline\hline
+   
+     \vspace{4.5em}
+   
+     \begin{singlespace}\begin{center}\bfseries\Huge
+     
+        Sensitivity of dim 8 EFT operators to resonance signals in Vector scattering boson scatterings
+     
+     \end{center}\end{singlespace}
+   
+     \vspace{5.5em}
+   
+     \begin{singlespace}\begin{center}\large
+      Bachelor-Arbeit \\ zur Erlangung des Hochschulgrades \\ 
+      Bachelor of Science \\ 
+      im Bachelor-Studiengang Physik
+     \end{center}\end{singlespace}\medskip
+   
+     \begin{center}vorgelegt von\end{center}
+     \begin{center}
+      {\large Georg Schmieder} \\ geboren am 14.10.1996 in Oschersleben
+     \end{center}\medskip
+   
+     \begin{singlespace}\begin{center}\large
+      Institut für Kern und Teilchen Physik \\
+      Fakultät Physik \\
+      Bereich Mathematik und Naturwissenschaften \\
+      Technische Universität Dresden \\ 2022
+     \end{center}\end{singlespace}
+    \end{tabularx}
+   \end{titlepage}
+   
+   
+   % Gutachterseite
+   \thispagestyle{empty}\vspace*{48em}
+   
+   Eingereicht am xx.~Monat~20xx\vspace{1.5em}
+   \par{\large\begin{tabular}{ll}
+    1. Gutachter: & Dr.~Frank Siegert \\
+    2. Gutachter: & Prof.~Dr.~Arno Straessner  \\
+   \end{tabular}}
+   
+   
+   % Abstractseite
+   \newpage
+   \begin{center}\large\bfseries Summary\end{center}
+   
+   
+   Abstract \\ 
+   English: \\
+   
+   \vspace{20em}
+   Abstract \\ 
+   Deutsch \\
+    
+    
+   % Inhaltsverzeichnis
 \tableofcontents
 
 \pagebreak
 \chapter{Introduction}
     \subfile{sections/Introduction.tex}
 
-\pagebreak
 \chapter{Theoretical Foundation}
     \section{Effective Field Theory}
         \subfile{sections/EFT.tex}
-    \pagebreak
-    \section{Vector Boson Scattering}
-        \subfile{sections/VBS.tex}
+        
 
-    \pagebreak
     \section{GM H5 Model}
         \subfile{sections/GM_H5.tex}
-        
-\pagebreak
-\chapter{Event Selection}
-    \subfile{sections/Event_selection.tex}
+    
 
+    \section{Vector Boson Scattering}
+        \subfile{sections/VBS.tex}
+ 
+\pagebreak
+\chapter{Reproduction of Standard Model}
+    \section{Event Selection}
+        \subfile{sections/Event_selection.tex}
+
+% Erklärung
+\clearpage
+\thispagestyle{empty}
+\minisec{Erklärung}\vspace*{1.5em}
+
+Hiermit erkläre ich, dass ich diese Arbeit im Rahmen der Betreuung am Institut
+für ??? Physik ohne unzulässige Hilfe Dritter verfasst und alle Quellen als solche gekennzeichnet habe.
+
+\vspace*{45em}
+
+Vorname Nachname \par
+Dresden, Monat 2019
 \end{document}

@@ -39,8 +39,8 @@ For a characteristic heavy scale $\Lambda$ the operators are ordered by there di
 
 The Leading order $D = 4$ term in \ref{eq:L_SMEFT} is the SM Lagrangian while deviations of the SM are described by operators with a dimension $D>4$.
 
-\subsubsection{Example Tau Decay}
-Enrico Fermi proposed 1993 the Fermi Theory in order to describe the $\beta$-decay. His theory was able to describe the
+\subsection{Fermi Theory on the example Tau Decay}
+Enrico Fermi proposed 1933 the Fermi Theory in order to describe the $\beta$-decay. His theory was able to describe the
 weak coupling quite well without the former knowledge about the $W^{\pm}$-Boson which was only later theorized in 1968 by Steven Weinberg, Sheldon Glashow and Abdus Salam.
 The $W^{\pm}$-Boson was finally discovered in 1983. 50 years after Fermi's first successful description of an Interaction involving the $W^{\pm}$-Boson.
 Today we would call the Fermi theory the low-energy effective field theory of $W^{\pm}$-Boson.
@@ -86,17 +86,32 @@ Let us now compare our result with the result Fermi would have gotten if he knew
     i\mathcal{M}_{fi} = \frac{G_{F}}{\sqrt{2}} \left[ \overline{u}(k_{\nu_{\tau}})\gamma^{\mu}(1-\gamma^{5})u(k_{\tau}) \right] g_{\mu\sigma} \left[ \overline{u}(k_{e})\gamma^{\sigma}(1-\gamma^{5})v(k_{\overline{\nu_{e}}}) \right]
     \label{eq:Fermi_the_slim_Fermi}
 \end{equation}
-With $G_{F} \approx 4.5437957\times 10^{14} J^{-2}$ being the Fermi constant which is typically measured in the muon decay. The $1/\sqrt(2)$ is added in order to not change the numerical value of $G_{F}$ while considering the parity violation.
+With $G_{F} \approx 4.5437957\times 10^{14} J^{-2}$ being the Fermi constant which is typically measured in the muon decay. The $1/\sqrt{2}$ is added in order to not change the numerical value of $G_{F}$ while considering the parity violation.
 From equation \ref{eq:Fermi_colapse} and \ref{eq:Fermi_the_slim_Fermi} we get the following result.
 \begin{equation}
     \frac{G_{F}}{\sqrt{2}} = \frac{g_{W}^{2}}{8 m_{W}^{2}}
 \end{equation}
-We can now use the Fermi Theory for low mass Measurements ($m_{l} \ll m_{W}$) like the tau decay to calculate the Decay width
-by integrating the matrix element squared over the phase space of each finale state particle. I will only quote the result her, sice the acctuale calculations proves to be quite long but can be looked at here \cite{Quelle für Die myon decay rechnung}.
-
+Defining the expansion scale $\Lambda=m_{W}$ and the Wilson coefficient $c= \frac{g_{W}^{2}}{8}$ we can see that the Matrix element has dimension 2.
+With this we can also write down a new effective Lagrangian without the $W^{\pm }$-Boson but. The EFT described has to contain the tau, electron, their respective neutrienofields
+as well as the Interaction Lagrangian.
 \begin{equation}
-    \Gamma(\tau \rightarrow \nu_{\tau} e^{-} \overline{\nu_{e}}) = \frac{G_{F}^{2} m_{\tau}^{5}}{192 \pi^{3}} f \left(\frac{m_{e}^{2}}{m_{\tau}^{2}} \right) \textnormal{ with } f(x)=1-8x-8x^{3}-x^{4}-12 x^{2} ln(x)
+    \mathcal{L}_{EFT} = \frac{c}{\Lambda^{2}} \left( \overline{\nu}_{\tau} \overline{\gamma}_{\rho} \tau \right) \left(\bar{e} \overline{\gamma}_{\rho} \nu_{e} \right) + \mathcal{O}(\frac{1}{\Lambda^{4}})
 \end{equation}
+Our Fermi Theory is only valid for low energies since Scattering Amplitude from the Standard Model and the EFT would
+start to diverge once the Energy gets close to the mass of the $W^{\pm}$-Boson.
+The $m_{W}$ defines the validity scale of the EFT in this case the Fermi Theory. For Energies higher than $m_{W}$the
+Fermi Theory is no longer valid. We can increase the validity scale by including therms of higher dimension in $\Lambda$.
+In this example we derived the Matrix element from the SM and then compared the result with the result from Fermi in 
+order to determine $\frac{c}{\Lambda}$. This requires knowledge about the UV theory which is not accessible in low-Energy
+Measurements. As a result we have to make assumptions about a UV Theory in order to construct the right EFT.
+
+%We can now use the Fermi Theory for low mass Measurements ($m_{l} \ll m_{W}$) like the tau decay to calculate the Decay width
+%by integrating the matrix element squared over the phase space of each finale state particle. I will only quote the result her, sice the acctuale calculations proves to be quite long but can be looked at here \cite{Quelle für Die myon decay rechnung}.
+%
+%\begin{equation}
+%    \Gamma(\tau \rightarrow \nu_{\tau} e^{-} \overline{\nu_{e}}) = \frac{G_{F}^{2} m_{\tau}^{5}}{192 \pi^{3}} f \left(\frac{m_{e}^{2}}{m_{\tau}^{2}} \right) \textnormal{ with } f(x)=1-8x-8x^{3}-x^{4}-12 x^{2} ln(x)
+%\end{equation}
+
 
 \end{document}
  
