@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="1">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Bachelorarbeit.bcf</file>
+      <file>BSM.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>Bachelorarbeit.bbl</file>
+      <file>BSM.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -67,19 +67,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>Bachelorarbeit</infile>
+      <infile>BSM</infile>
     </cmdline>
     <input>
-      <file>Bachelorarbeit.bcf</file>
+      <file>BSM.bcf</file>
     </input>
     <output>
-      <file>Bachelorarbeit.bbl</file>
+      <file>BSM.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Bachelorarbeit.bbl</file>
+      <file>BSM.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Bachelorarbeit.bcf</file>
+      <file>BSM.bcf</file>
     </requires>
     <requires type="editable">
       <file>bib.bib</file>

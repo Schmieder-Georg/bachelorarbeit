@@ -41,12 +41,12 @@ a small cross-section around 1 fb resulting in a small event count. In the 2015 
 run with 36 $fb^{-1}$ not even 100 events produce VBS processes.
 There for one has to carefully select Events in order to get a meaningful signal process. The Events Selection is implemented 
 as described in \cite{Bittrich.27.05.2020} using the Common Analysis Framework(CAF). The Object selection however was already done in ELCore
-and account for the Event cleaning, GoodRunList, Trigger, Primary Vertex in Table \ref*{tab:eventselection} these cant be change in the CAF.
+and account for the Event cleaning, GoodRunList, Trigger, Primary Vertex in Table \ref{tab:eventselection} these cant be change in the CAF.
 Therefore, only the Event selection done in the CAF will be discussed. ELCore produces beam reconstruction
 level samples the Event Selection in the CAF is split into the three phase space regions lllvjj, WZjj and the VBS signal region(VBSSR).
 Even though the regions are different the selection criteria overlap. The WZjj region use the selection criteria of
 the lllvjj as base and introduces new selection criteria.
-The same is true for the VBSSR which builds upon the WZjj region as show in Table \ref*{tab:eventselection}.
+The same is true for the VBSSR which builds upon the WZjj region as show in Table \ref{tab:eventselection}.
 \\\\
 \textbf{lllvjj region:} Only events with 3 or more leptons that pass the Z-analysis are chosen. The Leptons are then assigned to the decaying gauge boson.
 For this same flavour and opposite charge(SFOC) leptons pairs are chosen. The pair with invariant mass close to the Z Boson mass is assigned to the Z-Boson.
@@ -65,14 +65,46 @@ increasing WZjj-EW6 contribution compared to WZjj-EW4 and WZjj-EW5. For this two
 $M(jj)>500$ GeV and the absolute rapidity difference hast be constraint $\Delta Y(jj) >2$.
 \\\\
 
-\begin{figure}
+\begin{figure}[h]
     \centering
-    \begin{subfigure}{.5\textwidth}}
+    \begin{subfigure}{0.45\textwidth}
         \centering
-
-        \caption{(a)}
+        \includegraphics[width=\textwidth]{Plots/SM_reproduction/all_VV_MWZ_vbs.pdf}
+        \caption{}
     \end{subfigure}
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Plots/SM_reproduction/all_VV_MTWZ.pdf}
+        \caption{}
+    \end{subfigure}
+    \caption{VBSSR region for a) invariant Mass, b) transverse mass. Showing reproduction of SM as well as the in section \ref{sec:VBS} discussed dominance of QCD and EW processes. }
+    \label{fig:SM_re}
 \end{figure}
 
+Figure \ref*{fig:SM_re} shows the cuts for the VBSSR region applied for the combined data from mc16d and mc16e with a combined luminosity of 102.7 $fb^{-1}$.
+These histograms will be combined to WZ + Background in the following Plots.
+Ideally one would use all campaigns mc16a, mc16d and mc16e with combined luminosity of 139 $fb^{-1}$ to achieve the best statistic.
+For this Analysis the EFT Samples as well as the GM resonance samples have to be included resulting in to many Branches in the TQSampleTree than
+the current ROOT version 6.14.04 used by the CAF can process. 
+
+
+\begin{table}
+    \centering
+    \begin{tabular}{ l c c c }
+        \hline
+        VBSSR & mc16d+mc16e & mc16a & SM\\
+        \hline
+        WZ QCD & $356.8912 \pm 2.4118$ & $121.5475 \pm 1.1721$ & $144 \pm 41$\\
+        WZ EWK & $91.2393 \pm 0.4231$ & $32.4363 \pm 0.2522$ & $24.9 \pm 1.4$\\
+        Background  & $27.2161 \pm 2.0335$ & $11.9691 \pm 0.4701$ &  $31.1 \pm 3.9$\\
+        \hline 
+        WZ SM + Background & $475.3466 \pm 3.2912$ & $165.9529 \pm 1.4050$ & $200 \pm 41$\\
+        \hline
+    \end{tabular}
+    \caption{Overwiev of Events in VBSSR region. mc16a is compared to the \cite{STDM} for the reproduction of the SM EFT Limits.
+        While the Resonance Fitting is done with the mc16e+mc16d data. The differences between the mc16a and the SM is like cause by some ELCore settings
+        since the cuts possible in the CAF tool where replicated.}
+    \label{tab:SM_re}
+\end{table}
 
 \end{document}
