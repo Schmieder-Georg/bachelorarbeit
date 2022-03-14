@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="Resonace_Fit.svg"
+   inkscape:export-filename="E:\Georg\Dokumente\Studium\bachelorarbeit\images\Resonace_Fit.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.5578125"
+     inkscape:cx="947.45098"
+     inkscape:cy="804.03361"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 84.257703,69.915966 V 1002.1289 H 1722.8011"
+       id="path895" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 16.134453,139.83194 C 85.154063,70.812326 84.257703,69.915966 84.257703,69.915966"
+       id="path1441" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 152.38095,139.83194 C 83.361373,70.812326 84.257703,69.915966 84.257703,69.915966"
+       id="path1441-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1652.8852,934.00565 c 69.0196,69.01965 69.9159,68.12325 69.9159,68.12325"
+       id="path1441-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1652.8851,1070.2522 c 69.0197,-69.0197 69.9161,-68.1233 69.9161,-68.1233"
+       id="path1441-9-8" />
+    <path
+       style="fill:none;stroke:#00a4ff;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 147.0028,894.56583 c 306.55462,0 310.14006,-170.30813 310.14006,-170.30813 0,0 93.22129,-476.86274 200.78431,-419.4958 107.56303,57.36695 87.84314,536.02241 381.84873,577.25491 294.0056,41.23249 541.4006,55.57423 541.4006,55.57423"
+       id="path1871" />
+    <path
+       style="fill:none;stroke:#d70000;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1010.6442,877.08683 c 224.0897,5.37815 579.0477,-87.84314 579.0477,-87.84314"
+       id="path4055" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="568.29132"
+       y="1063.0812"
+       id="text8223"><tspan
+         sodipodi:role="line"
+         id="tspan8221"
+         x="568.29132"
+         y="1063.0812"
+         style="font-size:64px">Invariant Mass</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="-580.04407"
+       y="62.88089"
+       id="text19315"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan19313"
+         x="-580.04407"
+         y="62.88089"
+         style="font-size:64px">Events</tspan></text>
+  </g>
+</svg>
