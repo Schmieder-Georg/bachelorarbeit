@@ -1,14 +1,27 @@
-\babel@toc {english}{}\relax 
-\babel@toc {english}{}\relax 
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {english}{}
+\babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Theoretical Foundation}{9}{chapter.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Effective Field Theory}{9}{section.2.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.1.1}Fermi Theory on the example Tau Decay}{9}{subsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}SMEFT}{11}{section.2.2}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}BSM Theories}{12}{section.2.3}%
-\contentsline {section}{\numberline {2.4}GM H5 Model}{14}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Vector Boson Scattering}{14}{section.2.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}GM H5 Model}{15}{section.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Vector Boson Scattering}{15}{section.2.5}%
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Reproduction of Standard Model}{17}{chapter.3}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Event Selection}{17}{section.3.1}%
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Standard Model EFT Limits}{19}{section.3.2}%
+\defcounter {refsection}{0}\relax 
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,0 +1,9 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'EFT.blg'
+[73] biber:340> INFO - === Mi Mär 16, 2022, 16:46:02
+[87] Biber.pm:415> INFO - Reading 'EFT.bcf'
+[157] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
+[171] Biber.pm:4340> INFO - Processing section 0
+[180] Biber.pm:4531> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[288] Utils.pm:400> ERROR - Cannot find 'bib.bib'!
+[289] Biber.pm:132> INFO - ERRORS: 1
