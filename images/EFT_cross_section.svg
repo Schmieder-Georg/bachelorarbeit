@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="EFT_cross_section.svg"
+   inkscape:export-filename="EFT_cross_section.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="1033"
+     inkscape:cy="622"
+     inkscape:window-width="1904"
+     inkscape:window-height="919"
+     inkscape:window-x="8"
+     inkscape:window-y="40"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 120.11204,66.330532 V 998.54347 H 1758.6554"
+       id="path895" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 51.988795,136.24651 C 121.0084,67.226892 120.11204,66.330532 120.11204,66.330532"
+       id="path1441" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 188.23529,136.24651 C 119.21571,67.226892 120.11204,66.330532 120.11204,66.330532"
+       id="path1441-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1688.7394,930.42022 c 69.0196,69.01965 69.9159,68.12325 69.9159,68.12325"
+       id="path1441-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1688.7393,1066.6668 c 69.0197,-69.01973 69.9161,-68.12333 69.9161,-68.12333"
+       id="path1441-9-8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="1765.8263"
+       y="1064.8739"
+       id="text8223"><tspan
+         sodipodi:role="line"
+         id="tspan8221"
+         x="1765.8263"
+         y="1064.8739"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold'">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px"
+       x="37.927185"
+       y="61.406174"
+       id="text12133"><tspan
+         sodipodi:role="line"
+         id="tspan12131"
+         x="37.927185"
+         y="61.406174"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold'">σ</tspan></text>
+    <path
+       style="fill:none;stroke:#c100cc;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 122,390 c 0,0 368,-52 1412,606"
+       id="path434104" />
+    <path
+       style="fill:none;stroke:#00bd00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 122,390 c 0,0 284,22 420,92 136,70 360,56 424,-46 64,-102 198,-366 210,-392"
+       id="path435844" />
+    <path
+       style="fill:none;stroke:#00bd00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 1224,66 C 1056,756 902,688 868,680 834,672 814,606 586,502 358,398 122,390 122,390"
+       id="path440464" />
+    <path
+       style="fill:none;stroke:#00bd00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="M 846,52 V 996"
+       id="path445275" />
+    <path
+       style="fill:none;stroke:#00bd00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 944,54 V 998"
+       id="path445275-2" />
+    <text
+       xml:space="preserve"
+       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#00bd00;fill-opacity:1"
+       x="678"
+       y="1058"
+       id="text456694"><tspan
+         sodipodi:role="line"
+         id="tspan456692"
+         x="678"
+         y="1058"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#000000;fill-opacity:1">Unitarity Limit</tspan></text>
+  </g>
+</svg>

@@ -89,7 +89,7 @@ Measurements. As a result we have to make assumptions about a UV Theory in order
 %    \Gamma(\tau \rightarrow \nu_{\tau} e^{-} \overline{\nu_{e}}) = \frac{G_{F}^{2} m_{\tau}^{5}}{192 \pi^{3}} f \left(\frac{m_{e}^{2}}{m_{\tau}^{2}} \right) \textnormal{ with } f(x)=1-8x-8x^{3}-x^{4}-12 x^{2} ln(x)
 %\end{equation}
 
-\section{SMEFT}
+\subsection{Standard Model Effective Field Theory(SMEFT)}
 The Name suggests The SMEFT aims to extant the Standard Model.
 Except the g-Faktor of the Myon the Standard Model has been robust without meaningful deviations from Experimental Measurements. 
 %With that in mind it is reasonable to assume that new Particles are heavier than Particles within the weak scale. 
@@ -117,8 +117,9 @@ Even though they are called irrelevant they often contain important information 
 Relevant operator $D<4$ become relevant for energies close to the validity scale and only EFT's with relevant and marginal operators are normalizable making the predictions valid up to E/M.
 \\\\
 Using knowledge about SM field and known symmetries one can construct an operator basis. All allowed invariant structure are found using the SM fields and their symmetries at a dimension D. 
-Removing all terms from the S-matrix that would result in the same Physics provides the basis. The General choice of basis in the search for new Physics is the Warsaw basis \cite[Lisabon-2]
-other basis like the Higgs basis can be used to present results. Obviously the choice of Basis does not change the Physics as Physics should be basis independent.
+Removing all terms from the S-matrix that would result in the same Physics provides the basis. The General choice of basis in the search for new Physics is the Warsaw basis \cite[Lisabon-2], other basis can be chosen as Physics should be basis indepentent.
+In VBS processes the Eboli basis is commonly used because the operators can be categorized in Longitudinal Operators only containing covariant derivatives $D^{\mu}$ and a Higgs doublet fields $\Phi$,
+Transverse operators only containing field strength tensors $\widehat{W}_{\mu\nu}$ and Mixed operators containing combinations.
 Most of the operators can be discarded since they don't contribute to WZ processes leaving only six dimension-8 operators.
 \\
 \begin{table}[h]
@@ -134,8 +135,48 @@ Most of the operators can be discarded since they don't contribute to WZ process
          & $\mathcal{O}_{T,2} = Tr[\widehat{W}_{\alpha\mu}\widehat{W}^{\mu\beta}] \times Tr[\widehat{W}_{\beta\nu}\widehat{W}^{\nu\alpha}]$ \\
     \end{tabular}
 \end{table}
+\subsection{EFT validity and unitarity violation}
+
+The time evolution of states in quantum mechanics is mathematically described by unitary operators. Time evolution without unitary operators is proposed in new approaches to quantum mechanics like Carl M. Benders talk in 2021 at the TU-Dresden
+proposing a quantum theory including non Hermitian Hamiltonian. Unitarity was a decisive concept for the inclusion of the Higgs field in the SM as it restored unitarity at tree level. 
+EFT isn't a complete theory by extending the SM, TGC and QGC processes are modified leading to unitarity violation. The expected behaviors of a Unitary EFT is dim-6 interference > dim-6 quadratic ~ dim-8 interference > dim-8 quadratic.
+This however is not the case as dim-8 operators cause the Scattering amplitude to growth asymptotically $\sim \Lambda^{2}$ eventually leading to unitarity violation \ref{fig:dim8_quad_int_comparission}.
+In ATLAS research a common Unitarization technique
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Plots/Sm_re/all_VV_MTWZ.pdf}
+        \caption{Comparission of inteferenz term and quadratic term}
+        \label{fig:dim8_quad_int_comparission}
+    \end{subfigure}
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/EFT_cross_section.png}
+        \caption{cross-section}
+        \label{fig:EFT_unitarity}
+    \end{subfigure}
+\end{figure}
 
 
+
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/EFT_validity.png}
+        \caption{Validity}
+        \label{fig:EFT_validity}
+    \end{subfigure}
+    \begin{subfigure}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/EFT_cross_section.png}
+        \caption{cross-section}
+
+    \end{subfigure}
+\end{figure}
 
 \end{document}
  

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="EFT_validity.svg"
+   inkscape:export-filename="E:\Georg\Dokumente\Studium\bachelorarbeit\images\Resonace_Fit.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="1033"
+     inkscape:cy="622"
+     inkscape:window-width="1904"
+     inkscape:window-height="919"
+     inkscape:window-x="8"
+     inkscape:window-y="40"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 120.11204,66.330532 V 998.54347 H 1758.6554"
+       id="path895" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 51.988795,136.24651 C 121.0084,67.226892 120.11204,66.330532 120.11204,66.330532"
+       id="path1441" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 188.23529,136.24651 C 119.21571,67.226892 120.11204,66.330532 120.11204,66.330532"
+       id="path1441-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1688.7394,930.42022 c 69.0196,69.01965 69.9159,68.12325 69.9159,68.12325"
+       id="path1441-5" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 1688.7393,1066.6668 c 69.0197,-69.01973 69.9161,-68.12333 69.9161,-68.12333"
+       id="path1441-9-8" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:64px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none"
+       x="1765.8263"
+       y="1064.8739"
+       id="text8223"><tspan
+         sodipodi:role="line"
+         id="tspan8221"
+         x="1765.8263"
+         y="1064.8739"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold'">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px"
+       x="17.927185"
+       y="195.40617"
+       id="text12133"><tspan
+         sodipodi:role="line"
+         id="tspan12131"
+         x="17.927185"
+         y="195.40617"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold'">dσ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px"
+       x="17.927185"
+       y="259.94397"
+       id="text88315"><tspan
+         sodipodi:role="line"
+         id="tspan88313"
+         x="17.927185"
+         y="259.94397"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold'">dE</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 21.512605,204.36975 c 75.294118,0 75.294118,0 75.294118,0"
+       id="path133869" />
+    <path
+       style="fill:none;stroke:#0099c4;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 120.11204,301.17647 c 0,0 206.16247,-261.736694 523.47339,-7.17086 317.31092,254.56582 604.14567,514.5098 1023.64147,466.10644"
+       id="path134036" />
+    <path
+       style="fill:none;stroke:#009e00;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 120.11204,301.17647 c 0,0 204.36975,-267.114845 537.81513,1.79272 333.44538,268.90756 616.69463,643.58543 1009.29973,586.21849"
+       id="path136455" />
+    <path
+       style="fill:none;stroke:#bd00b4;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 120.11204,301.17647 c 0,0 184.64986,-261.736694 528.85155,-1.79272 344.20168,259.94398 636.41461,467.89916 740.39211,408.7395 103.9776,-59.15966 265.3222,-227.67507 464.3138,-26.89076"
+       id="path137494" />
+    <path
+       style="fill:none;stroke:#e6a500;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 120.11204,301.17647 C 120.11204,301.17647 322,84 580,254 c 258,170 202,104 278,148 76,44 38,388 144,318 106,-70 242,-362 284,-230 42,132 70,452 252,536"
+       id="path139193" />
+    <path
+       style="fill:none;stroke:#e6a500;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:20, 40;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 1066,114 v 890"
+       id="path144805" />
+    <path
+       style="fill:none;stroke:#bd00b4;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:20, 40;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 1656,115.5 v 890"
+       id="path144805-4" />
+    <text
+       xml:space="preserve"
+       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px"
+       x="1050"
+       y="92"
+       id="text171112"><tspan
+         sodipodi:role="line"
+         id="tspan171110"
+         x="1050"
+         y="92"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#e6a500;fill-opacity:1">Λ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:45.3333px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#e6a500;fill-opacity:1"
+       x="1092"
+       y="98"
+       id="text268477"><tspan
+         sodipodi:role="line"
+         id="tspan268475"
+         x="1092"
+         y="98"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.3333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold'">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#bd00b4;fill-opacity:1"
+       x="1634.3672"
+       y="95.84375"
+       id="text171112-6"><tspan
+         sodipodi:role="line"
+         id="tspan171110-8"
+         x="1634.3672"
+         y="95.84375"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#bd00b4;fill-opacity:1">Λ</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:45.3333px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#bd00b4;fill-opacity:1"
+       x="1676.3672"
+       y="101.84375"
+       id="text268477-8"><tspan
+         sodipodi:role="line"
+         id="tspan268475-4"
+         x="1676.3672"
+         y="101.84375"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.3333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#bd00b4;fill-opacity:1">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#e6a500;fill-opacity:1"
+       x="1136"
+       y="432"
+       id="text319387"><tspan
+         sodipodi:role="line"
+         id="tspan319385"
+         x="1136"
+         y="432"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#e6a500;fill-opacity:1">Model 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#bd00b4;fill-opacity:1"
+       x="1668"
+       y="564"
+       id="text360885"><tspan
+         sodipodi:role="line"
+         id="tspan360883"
+         x="1668"
+         y="564"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#bd00b4;fill-opacity:1">Model 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#0099c4;fill-opacity:1"
+       x="1523.4062"
+       y="746"
+       id="text360885-3"><tspan
+         sodipodi:role="line"
+         id="tspan360883-1"
+         x="1523.4062"
+         y="746"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#0099c4;fill-opacity:1">EFT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#009e00;fill-opacity:1"
+       x="1520.4688"
+       y="880.84375"
+       id="text360885-3-4"><tspan
+         sodipodi:role="line"
+         id="tspan360883-1-9"
+         x="1520.4688"
+         y="880.84375"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#009e00;fill-opacity:1">SM</tspan></text>
+  </g>
+</svg>
