@@ -136,47 +136,36 @@ Most of the operators can be discarded since they don't contribute to WZ process
     \end{tabular}
 \end{table}
 \subsection{EFT validity and unitarity violation}
-
-The time evolution of states in quantum mechanics is mathematically described by unitary operators. Time evolution without unitary operators is proposed in new approaches to quantum mechanics like Carl M. Benders talk in 2021 at the TU-Dresden
-proposing a quantum theory including non Hermitian Hamiltonian. Unitarity was a decisive concept for the inclusion of the Higgs field in the SM as it restored unitarity at tree level. 
-EFT isn't a complete theory by extending the SM, TGC and QGC processes are modified leading to unitarity violation. The expected behaviors of a Unitary EFT is dim-6 interference > dim-6 quadratic ~ dim-8 interference > dim-8 quadratic.
-This however is not the case as dim-8 operators cause the Scattering amplitude to growth asymptotically $\sim \Lambda^{2}$ eventually leading to unitarity violation \ref{fig:dim8_quad_int_comparission}.
-In ATLAS research a common Unitarization technique
-
-\begin{figure}[h]
-    \centering
-    \begin{subfigure}{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{Plots/Sm_re/all_VV_MTWZ.pdf}
-        \caption{Comparission of inteferenz term and quadratic term}
-        \label{fig:dim8_quad_int_comparission}
-    \end{subfigure}
-    \begin{subfigure}{0.45\textwidth}
-        \centering
-        \includegraphics[width=\textwidth]{images/EFT_cross_section.png}
-        \caption{cross-section}
-        \label{fig:EFT_unitarity}
-    \end{subfigure}
-\end{figure}
-
-
-
-
 \begin{figure}[h]
     \centering
     \begin{subfigure}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/EFT_validity.png}
-        \caption{Validity}
-        \label{fig:EFT_validity}
+        \caption{}
     \end{subfigure}
     \begin{subfigure}{0.45\textwidth}
         \centering
         \includegraphics[width=\textwidth]{images/EFT_cross_section.png}
-        \caption{cross-section}
-
+        \caption{}
     \end{subfigure}
+    \caption{}
+    \label{fig:EFT_validity}
 \end{figure}
+The time evolution of states in quantum mechanics is mathematically described by unitary operators. Time evolution without unitary operators is proposed in new approaches to quantum mechanics like Carl M. Benders talk in 2021 at the TU-Dresden
+proposing a quantum theory including non Hermitian Hamiltonian. Unitarity was a decisive concept for the inclusion of the Higgs field in the SM as it restored unitarity at tree level. 
+EFT isn't a complete theory by extending the SM, TGC and QGC processes are modified leading to unitarity violation. The expected behaviors of a Unitary EFT is dim-6 interference > dim-6 quadratic $\sim$ dim-8 interference > dim-8 quadratic.
+This however is not the case as dim-8 operators cause the Scattering amplitude to growth asymptotically $\sim \Lambda^{2}$ eventually leading to unitarity violation \ref{fig:dim8_quad_int_comparission}.
+On can now apply a cutoff at the validity scale $M=\Lambda$ but in practice the value of $\Lambda$ is unknown and can only be gained by analyzing data. This means that EFT predictions are only valid for an operator dependent unitarity limit.
+It should be noted that unitarity can be restored by using unitarisation. In ATLAS research the relatively simple K-matrix method is commonen tool for unitarisation as shown in \cite{Kilian.2015}. This however does not restore EFT validity and
+makes connecting EFT results to UV Theories harder. In conclusion the search for BSM effects using EFT is only possible in an Energy range as light states are not detectable and high Energy states are removed by the unitarity limit \ref{fig:EFT_validity}. 
+\begin{figure}[h]
+    \centering
+    \centering
+    \includegraphics[width=0.45\textwidth]{Plots/Sm_re/all_VV_MTWZ.pdf}
+    \caption{Comparission of inteferenz term and quadratic term}
+    \label{fig:dim8_quad_int_comparission}
+\end{figure}
+
 
 \end{document}
  

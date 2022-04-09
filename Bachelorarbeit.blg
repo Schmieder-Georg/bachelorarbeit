@@ -1,19 +1,19 @@
-[0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'Bachelorarbeit.blg'
-[59] biber:340> INFO - === Fr Mär 18, 2022, 14:36:39
-[70] Biber.pm:415> INFO - Reading 'Bachelorarbeit.bcf'
-[130] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
-[142] Biber.pm:4340> INFO - Processing section 0
-[150] Biber.pm:4531> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[152] bibtex.pm:1689> INFO - LaTeX decoding ...
-[244] bibtex.pm:1494> INFO - Found BibTeX data source 'bib.bib'
-[270] Utils.pm:384> WARN - Entry '.07.06.2021' (bib.bib): Invalid format '07.06.2021' of date field 'date' - ignoring
-[274] Utils.pm:384> WARN - legacy year field '27.05.2020' in entry 'Bittrich.27.05.2020' is not an integer - this will probably not sort properly.
-[275] Utils.pm:384> WARN - I didn't find a database entry for 'STDM' (section 0)
-[285] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[285] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[285] Biber.pm:4168> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
-[285] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[292] bbl.pm:654> INFO - Writing 'Bachelorarbeit.bbl' with encoding 'UTF-8'
-[294] bbl.pm:757> INFO - Output to Bachelorarbeit.bbl
-[294] Biber.pm:128> INFO - WARNINGS: 3
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Bachelorarbeit.blg'
+[155] biber-MSWIN32:340> INFO - === 
+[210] Biber.pm:418> INFO - Reading 'Bachelorarbeit.bcf'
+[391] Biber.pm:972> INFO - Found 5 citekeys in bib section 0
+[414] Biber.pm:4383> INFO - Processing section 0
+[429] Biber.pm:4574> INFO - Looking for bibtex file 'bib.bib' for section 0
+[513] bibtex.pm:1713> INFO - LaTeX decoding ...
+[638] bibtex.pm:1518> INFO - Found BibTeX data source 'bib.bib'
+[723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[723] Biber.pm:4203> INFO - Sorting list 'ynt/global//global/global' of type 'entry' with template 'ynt' and locale 'en-US'
+[723] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[736] bbl.pm:654> INFO - Writing 'Bachelorarbeit.bbl' with encoding 'UTF-8'
+[740] bbl.pm:757> INFO - Output to Bachelorarbeit.bbl
+[740] Biber.pm:130> WARN - Entry '.07.06.2021' (bib.bib): Invalid format '07.06.2021' of date field 'date' - ignoring
+[740] Biber.pm:130> WARN - legacy year field '27.05.2020' in entry 'Bittrich.27.05.2020' is not an integer - this will probably not sort properly.
+[740] Biber.pm:130> WARN - I didn't find a database entry for 'STDM' (section 0)
+[740] Biber.pm:132> INFO - WARNINGS: 3
