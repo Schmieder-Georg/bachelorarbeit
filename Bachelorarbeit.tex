@@ -8,99 +8,96 @@
 % Titelpageseite
 \begin{titlepage}
     \begin{tabularx}{\linewidth}{X}
-     \includegraphics[width=6cm]{TU_Logo_SW} \\\hline\hline
-   
-     \vspace{4.5em}
-   
-     \begin{singlespace}\begin{center}\bfseries\Huge
-     
-        Sensitivity of dim 8 EFT operators to resonance signals in Vector scattering boson scatterings
-     
-     \end{center}\end{singlespace}
-   
-     \vspace{5.5em}
-   
-     \begin{singlespace}\begin{center}\large
-      Bachelor-Arbeit \\ zur Erlangung des Hochschulgrades \\ 
-      Bachelor of Science \\ 
-      im Bachelor-Studiengang Physik
-     \end{center}\end{singlespace}\medskip
-   
-     \begin{center}vorgelegt von\end{center}
-     \begin{center}
-      {\large Georg Schmieder} \\ geboren am 14.10.1996 in Oschersleben
-     \end{center}\medskip
-   
-     \begin{singlespace}\begin{center}\large
-      Institut für Kern und Teilchen Physik \\
-      Fakultät Physik \\
-      Bereich Mathematik und Naturwissenschaften \\
-      Technische Universität Dresden \\ 2022
-     \end{center}\end{singlespace}
+        \includegraphics[width=6cm]{TU_Logo_SW} \\\hline\hline
+
+        \vspace{4.5em}
+
+        \begin{singlespace}\begin{center}\bfseries\Huge
+
+                Sensitivity of dim 8 EFT operators to resonance signals in Vector scattering boson scatterings
+
+            \end{center}\end{singlespace}
+
+        \vspace{5.5em}
+
+        \begin{singlespace}\begin{center}\large
+                Bachelor-Arbeit \\ zur Erlangung des Hochschulgrades \\
+                Bachelor of Science \\
+                im Bachelor-Studiengang Physik
+            \end{center}\end{singlespace}\medskip
+
+        \begin{center}vorgelegt von\end{center}
+        \begin{center}
+            {\large Georg Schmieder} \\ geboren am 14.10.1996 in Oschersleben
+        \end{center}\medskip
+
+        \begin{singlespace}\begin{center}\large
+                Institut für Kern und Teilchen Physik \\
+                Fakultät Physik \\
+                Bereich Mathematik und Naturwissenschaften \\
+                Technische Universität Dresden \\ 2022
+            \end{center}\end{singlespace}
     \end{tabularx}
-   \end{titlepage}
-   
-   
-   % Gutachterseite
-   \thispagestyle{empty}\vspace*{48em}
-   
-   Eingereicht am xx.~Monat~20xx\vspace{1.5em}
-   \par{\large\begin{tabular}{ll}
-    1. Gutachter: & Dr.~Frank Siegert \\
-    2. Gutachter: & Prof.~Dr.~Arno Straessner  \\
-   \end{tabular}}
-   
-   
-   % Abstractseite
-   \newpage
-   \begin{center}\large\bfseries Summary\end{center}
-   
-   
-   Abstract \\ 
-   English: \\
-   
-   \vspace{20em}
-   Abstract \\ 
-   Deutsch \\
-    
-    
-   % Inhaltsverzeichnis
+\end{titlepage}
+
+
+% Gutachterseite
+\thispagestyle{empty}\vspace*{48em}
+
+Eingereicht am xx.~Monat~20xx\vspace{1.5em}
+\par{\large\begin{tabular}{ll}
+        1. Gutachter: & Dr.~Frank Siegert         \\
+        2. Gutachter: & Prof.~Dr.~Arno Straessner \\
+    \end{tabular}}
+
+
+% Abstractseite
+\newpage
+\begin{center}\large\bfseries Summary\end{center}
+
+
+Abstract \\
+English: \\
+
+\vspace{20em}
+Abstract \\
+Deutsch \\
+
+
+% Inhaltsverzeichnis
 \tableofcontents
 
-\pagebreak
 \chapter{Introduction}
-    \subfile{sections/Introduction.tex}
-    Theoreticlay SM complete but not experimantaly
+\subfile{sections/Introduction.tex}
+\chapter{ATLAS Detektor}
+\subfile{sections/ATLAS.tex}
+
 \chapter{Theoretical Foundation}
-    \section{Effective Field Theory}
-        \subfile{sections/EFT.tex}
-        
-    \section{BSM Theories}
-        \subfile{sections/BSM.tex}
-    \section{GM H5 Model}
-        \subfile{sections/GM_H5.tex}
-    
+\section{Effective Field Theory}
+\subfile{sections/EFT.tex}
 
-    \section{Vector Boson Scattering}
-        \subfile{sections/VBS.tex}
- 
-\pagebreak
-\chapter{Reproduction of Standard Model}
-    \section{Event Selection}
-        \subfile{sections/Event_selection.tex}
+\section{BSM Theories}
+\subfile{sections/BSM.tex}
 
-   \section{Standard Model EFT Limits}
-        \subfile{sections/SM_Limits.tex}
+\section{Vector Boson Scattering}
+\subfile{sections/VBS.tex}
 
-    \section{Dim-8 operator limits for the GM Model}
-        \subfile{sections/dim_8_gm.tex}
+\chapter{Event Selection}
+\subfile{sections/Event_selection.tex}
 
+\chapter{Results}
+\subfile{sections/dim_8_gm.tex}
+
+\chapter{Summery and Outlook}
+\subfile{sections/summery.tex}
 
 
 %\newpage
 %\nocite{*}
 %\printbibliography
 
+\listoffigures
+\listoftables
 
 % Erklärung
 \clearpage
@@ -114,4 +111,7 @@ für ??? Physik ohne unzulässige Hilfe Dritter verfasst und alle Quellen als so
 
 Vorname Nachname \par
 Dresden, Monat 2019
+
+\section{Appendix}
+\label{sec:appendix}
 \end{document}

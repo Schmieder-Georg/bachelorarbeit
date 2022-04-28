@@ -5,41 +5,41 @@
 \begin{table}[h]
     \begin{tabular}{  l c c c }
         \hline
-        Event selection criterion & lllvjj region & WZjj region & VBSSR\\
+        Event selection criterion                 & lllvjj region & WZjj region & VBSSR   \\
         \hline
-        Event cleaning & $\surd$ & $\surd$ & $\surd$ \\
-        GoodRunList & $\surd$ & $\surd$ & $\surd$ \\
-        Trigger & $\surd$ & $\surd$ & $\surd$ \\
-        Primary Vertex & $\surd$ & $\surd$ & $\surd$ \\
+        Event cleaning                            & $\surd$       & $\surd$     & $\surd$ \\
+        GoodRunList                               & $\surd$       & $\surd$     & $\surd$ \\
+        Trigger                                   & $\surd$       & $\surd$     & $\surd$ \\
+        Primary Vertex                            & $\surd$       & $\surd$     & $\surd$ \\
         \hline
-        lllvjj finale state & & & \\
-        \qquad $\geq 2$ jets & $\surd$ & $\surd$ & $\surd$ \\
-        \qquad $\geq 3$ Z-Analysis leptons & $\surd$ & $\surd$ & $\surd$ \\
-        \qquad One SFOC pair & $\surd$ & $\surd$ & $\surd$ \\
-        $l_{W}$ is in W-Analysis selection & $\surd$ & $\surd$ & $\surd$ \\
-        Transverse momentum of leading leptons & & & \\
-        \qquad $p_{T}(l)>25(27) GeV$ & $\surd$ & $\surd$ & $\surd$ \\
-        Transverse momentum of subleading jet & & & \\
-        \qquad $p_{T}(j_{2})>40 GeV$ & $\surd$ & $\surd$ & $\surd$ \\
+        lllvjj finale state                       &               &             &         \\
+        \qquad $\geq 2$ jets                      & $\surd$       & $\surd$     & $\surd$ \\
+        \qquad $\geq 3$ Z-Analysis leptons        & $\surd$       & $\surd$     & $\surd$ \\
+        \qquad One SFOC pair                      & $\surd$       & $\surd$     & $\surd$ \\
+        $l_{W}$ is in W-Analysis selection        & $\surd$       & $\surd$     & $\surd$ \\
+        Transverse momentum of leading leptons    &               &             &         \\
+        \qquad $p_{T}(l)>25(27) GeV$              & $\surd$       & $\surd$     & $\surd$ \\
+        Transverse momentum of subleading jet     &               &             &         \\
+        \qquad $p_{T}(j_{2})>40 GeV$              & $\surd$       & $\surd$     & $\surd$ \\
         \hline
-        $M_{T}(W)>30 GeV$ & & $\surd$ & $\surd$ \\
-        $\lvert M(ll)-91.1876 GeV\rvert < 10 GeV$ & & $\surd$ & $\surd$ \\
-        four Baseline leptons veto & & $\surd$ & $\surd$ \\
-        b-jet veto & & $\surd$ & $\surd$ \\
+        $M_{T}(W)>30 GeV$                         &               & $\surd$     & $\surd$ \\
+        $\lvert M(ll)-91.1876 GeV\rvert < 10 GeV$ &               & $\surd$     & $\surd$ \\
+        four Baseline leptons veto                &               & $\surd$     & $\surd$ \\
+        b-jet veto                                &               & $\surd$     & $\surd$ \\
         \hline
-        $M(jj)>500 GeV$ & & & $\surd$ \\
-        $\Delta Y(jj) >2$ & & & $\surd$ \\
+        $M(jj)>500 GeV$                           &               &             & $\surd$ \\
+        $\Delta Y(jj) >2$                         &               &             & $\surd$ \\
         \hline
     \end{tabular}
     \centering
-    \caption{Text \cite{Bittrich.27.05.2020}}
+    \caption{Schematic view of cuts applied in different phase space regions. \cite{Bittrich.27.05.2020}}
     \label{tab:eventselection}
 \end{table}
 
 Event Selection is done in order to degrease background and get a clean signal process. VBS processes have
 a small cross-section around 1 fb resulting in a small event count. In the 2015 and 2016 Atlas
 run with 36 $fb^{-1}$ not even 100 events produce VBS processes.
-There for one has to carefully select Events in order to get a meaningful signal process. The Events Selection is implemented 
+There for one has to carefully select Events in order to get a meaningful signal process. The Events Selection is implemented
 as described in \cite{Bittrich.27.05.2020} using the Common Analysis Framework(CAF). The Object selection however was already done in ELCore
 and account for the Event cleaning, GoodRunList, Trigger, Primary Vertex in Table \ref{tab:eventselection} these cant be change in the CAF.
 Therefore, only the Event selection done in the CAF will be discussed. ELCore produces beam reconstruction
@@ -51,8 +51,8 @@ The same is true for the VBSSR which builds upon the WZjj region as show in Tabl
 \textbf{lllvjj region:} Only events with 3 or more leptons that pass the Z-analysis are chosen. The Leptons are then assigned to the decaying gauge boson.
 For this same flavour and opposite charge(SFOC) leptons pairs are chosen. The pair with invariant mass close to the Z Boson mass is assigned to the Z-Boson.
 The highest transverse momentum $p_{T}$ lepton from the remaining leptons is assigned to the $W^{\pm}$-Boson and required to pass de W-analysis.
-Chosen leptons need a transverse momentum $p_{T} > 25(27)$ GeV for the 2015(2016) campaign for the events to pass the trigger threshold. 
-Events have to have two or more events in order to be selected. These jets need to have $p_{T}(j)>40$ GeV to be considered as tagging jets. 
+Chosen leptons need a transverse momentum $p_{T} > 25(27)$ GeV for the 2015(2016) campaign for the events to pass the trigger threshold.
+Events have to have two or more events in order to be selected. These jets need to have $p_{T}(j)>40$ GeV to be considered as tagging jets.
 \\\\
 \textbf{WZjj region:} Additinal cuts are applied for the WZjj region in order to maximise $W^{\pm}Z$ contribution in the lllvjj final state.
 Some Events line ZZ diboson production are expected to produce an additional lepton therefore a four lepton Baseline veto is applied.
@@ -77,7 +77,7 @@ $M(jj)>500$ GeV and the absolute rapidity difference hast be constraint $\Delta 
         \includegraphics[width=\textwidth]{Plots/SM_reproduction/all_VV_MTWZ.pdf}
         \caption{}
     \end{subfigure}
-    \caption{VBSSR region for a) invariant Mass, b) transverse mass. Showing reproduction of SM as well as the in section \ref{sec:VBS} discussed dominance of QCD and EW processes. }
+    \caption{VBSSR region for a) invariant Mass, b) transverse mass. Showing reproduction of SM as well as the in section \ref{sec:VBS} discussed dominance of QCD and EW processes. VV, Vjets, Top, ttV, Vgamma, $WZ\_EWK$, $WZ\_QCD$ are combined to $'WZ\_SM + Background'$ in later plots. For the fits $WZ\_EWK$ is used as signal.}
     \label{fig:SM_re}
 \end{figure}
 
@@ -85,20 +85,20 @@ Figure \ref*{fig:SM_re} shows the cuts for the VBSSR region applied for the comb
 These histograms will be combined to WZ + Background in the following Plots.
 Ideally one would use all campaigns mc16a, mc16d and mc16e with combined luminosity of 139 $fb^{-1}$ to achieve the best statistic.
 For this Analysis the EFT Samples as well as the GM resonance samples have to be included resulting in to many Branches in the TQSampleTree than
-the current ROOT version 6.14.04 used by the CAF can process. 
+the current ROOT version 6.14.04 used by the CAF can process.
 
 
 \begin{table}
     \centering
     \begin{tabular}{ l c c c }
         \hline
-        VBSSR & mc16d+mc16e & mc16a & SM\\
+        VBSSR              & mc16d+mc16e           & mc16a                 & SM             \\
         \hline
-        WZ QCD & $356.8912 \pm 2.4118$ & $121.5475 \pm 1.1721$ & $144 \pm 41$\\
-        WZ EWK & $91.2393 \pm 0.4231$ & $32.4363 \pm 0.2522$ & $24.9 \pm 1.4$\\
-        Background  & $27.2161 \pm 2.0335$ & $11.9691 \pm 0.4701$ &  $31.1 \pm 3.9$\\
-        \hline 
-        WZ SM + Background & $475.3466 \pm 3.2912$ & $165.9529 \pm 1.4050$ & $200 \pm 41$\\
+        WZ QCD             & $356.8912 \pm 2.4118$ & $121.5475 \pm 1.1721$ & $144 \pm 41$   \\
+        WZ EWK             & $91.2393 \pm 0.4231$  & $32.4363 \pm 0.2522$  & $24.9 \pm 1.4$ \\
+        Background         & $27.2161 \pm 2.0335$  & $11.9691 \pm 0.4701$  & $31.1 \pm 3.9$ \\
+        \hline
+        WZ SM + Background & $475.3466 \pm 3.2912$ & $165.9529 \pm 1.4050$ & $200 \pm 41$   \\
         \hline
     \end{tabular}
     \caption{Overwiev of Events in VBSSR region. mc16a is compared to the \cite{STDM} for the reproduction of the SM EFT Limits.
@@ -106,5 +106,26 @@ the current ROOT version 6.14.04 used by the CAF can process.
         since the cuts possible in the CAF tool where replicated.}
     \label{tab:SM_re}
 \end{table}
+
+\begin{table}
+    \centering
+    \begin{tabular}{l | c c | c }
+        \hline
+                 & \multicolumn{2}{c|}{EFT Optimized binning} & SM Optimized Binnnig                  \\
+        Operator & $M(WZ)$                                    & $M_{T}(WZ)$          & $M_{T}(WZ)$    \\
+        \hline
+        S0       & [-49 , 47.4]                               & [-46 , 44.1]         & [-78 , 78]     \\
+        M0       & [-9.1 , 11.5]                              & [-9.3 , 9.65]        & [-15 , 15]     \\
+        M1       & [-16 , 15.7]                               & [-15 , 14.4]         & [-23 , 23]     \\
+        T0       & [-0.43 , 0.457]                            & [-0.38 , 0.325]      & [-1.4 , 1.4]   \\
+        T1       & [-0.82 , 0.713]                            & [-0.72 , 0.682]      & [-0.97 , 0.97] \\
+        T2       & [-2.4 , 2.16]                              & [-2.2 , 1.96]        & [-2.8 , 2.8]   \\
+        \hline
+    \end{tabular}
+    \caption{Asmiove fit Limits for SM data with $95\%$ CL. Differences arise from the use of mc16e, mc16d data compared to the mc16a data and the use of an BSM search optimized binning compared to the SM optimized binning used in \cite{NEEd OSurce}}
+    \label{tab:asimov}
+\end{table}
+
+
 
 \end{document}

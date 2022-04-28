@@ -28,15 +28,22 @@ The fit can't identify small energies or high energy with small cross-sections r
 
 Evaluating which fit is good can be done qualitative by simply looking at the invariant Mass plots if the EFT Sample scaled with the best fit value is able to describe
 the Resonance one can argue that the fit is good. But this is not accurately possible for resonances peaks that are higher energy than the WZ peak, but the start of the peak is still part of the WZ peak.
-For a quantitative analysis the significants quotient has to be calculated from the log-likelehood function $f(x)=-2\Delta log(L)$.
-The significants can be calculate using $Z(x)=\sqrt{f(x)}$ resulting in $S = \frac{Z_{GM}(0)}{Z_{EFT}(0)}$.
-Here $Z_{GM}$ is the significants when the GM Sample is used as coefficient in EFT-Fun and fitted with SM as measurement and as prediction.
+For a quantitative analysis the significance quotient has to be calculated from the log-likelehood function $f(x)=-2\Delta log(L)$.
+The significance can be calculate using $Z(x)=\sqrt{f(x)}$ resulting in $S = \frac{Z_{GM}(0)}{Z_{EFT}(0)}$.
+Here $Z_{GM}$ is the significance when the GM Sample is used as coefficient in EFT-Fun and fitted with SM as measurement and as prediction.
 The $Z_{EFT}$ is the fit of an EFT coefficient for the SM combined with the GM Model as measurement against the SM as prediction.
 $f(0)$ can be interpreted as the difference to the SM, if $f(0) = 0$ only the SM was measured and for $f(0) > 0$ the SM is excluded.
-The value of $f(0)$ can be read off from the likelehood-funktion in \ref{fig:EFT_GM_Asimov_comparision}. The scale is dependent on
+The value of $f(0)$ can be read off from the Log-likelihood-funktion in \ref{fig:EFT_GM_Asimov_comparision}. The scale is dependent on
 the operator as well as the allowed range making it difficult to estimate a read off error. The error can be minimized by looking at positive and negative extrema and limiting the range to zero as well as the shape including both extrema.
 Since the likelihood-function continuous all plots give the same $f(0)$ value. All three ranges should be used in case only an extremum exists, or only one is recognized by the fit this is often the case for low resonace energies.
-Using this the error becomes small compared to the statistical errors. 
+Using this the error becomes small compared to the statistical errors. All EFT coefficients in \ref{fig:significans_plots} with $S>0.8$ are able to reproduce the GM Model with a statistical significant greater than $80\%$.
+The result is independent of the resonance cross-section. This can be shown by scaling the resonance, in \ref{fig:corss-section-comparission} the cross-section is scaled with $2$ and $0.5$ which results in equal significance compared to the non-scaled resonances.
+The cross-section can't be scaled higher without breaking the fitting-tool as the values get unreasonably high. In the invariant mass plot for 0.5 times the cross-section, the cross-section becomes to low to be picked up by the fitting tool but in the transverse mass plot
+the resonance was still picked up and accurately described even though the relevant energy doesn't change, and therefore the transverse mass plot becomes more interesting for low cross-section resonances. The 700 GeV sample has a significance of $0.7-0.8$ making it irrelevant for this analysis
+but with the high dependence on the binning one may be able to get a significant result by optimizing the binning. The EFT limits for relevant resonance masses are shown in \ref{tab:inv_mass_EFT_limits}. The Limits for both extrema should be equivalent but the EFT-Fun only expects one extremum when fitting
+and therefore includes the second extremum in the $95\%$CL if the second extremum is to close to the first extremum.  In order to find both extrema the range from a minimal range to zero for the negative extremum and from zero to a positive minimal range.
+The minimal range should leave space for the fit to find the best fit value. \textcolor{blue}{T0 doesn't show this behaviour and combined with the in \ref{fig:corss-section-comparission} shown ability to accurately describe low cross-section resonances may hint to a smaller impact of the Quadratic Term from T0.}
+A full set of all parameters and both invariant mass and transverse mass are shown in \ref{fig:all_mwz_800} and \ref{fig:all_mtwz_800} for an 800 GeV resonance as this is the resonance with the lowest Energy and statistical significance. Other resonances are shown in the Appendix \ref{sec:appendix}.
 
 
 
@@ -55,11 +62,11 @@ Using this the error becomes small compared to the statistical errors.
         \caption{S1 for 700 GeV}
     \end{subfigure}
     \caption{\textbf{a)}The best fit value is zero since the SM is reproduced in the asimov fit.
-    \textbf{c)} The SM is exluded an two extrma emerge from the inclusion of the quadratic operator therm.}
+        \textbf{c)} The SM is excluded and two extrma emerge from the inclusion of the quadratic operator therm.}
     \label{fig:EFT_GM_Asimov_comparision}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[h]
     \centering
     \begin{subfigure}{0.45\textwidth}
         \includegraphics[width=\textwidth]{Plots/significans/MWZ.png}
@@ -69,7 +76,111 @@ Using this the error becomes small compared to the statistical errors.
         \includegraphics[width=\textwidth]{Plots/significans/MTWZ.png}
         \caption{}
     \end{subfigure}
-    \caption{}
+    \caption{a) EFT coefficients significance for invariant Mass b) EFT coefficients significance for transverse Mass}
     \label{fig:significans_plots}
 \end{figure}
+
+\begin{figure}
+    \centering
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Plots/significans/MWZ S0 comaprison.png}
+        \caption{}
+    \end{subfigure}
+    \begin{subfigure}{0.45\textwidth}
+        \includegraphics[width=\textwidth]{Plots/significans/MTWZ T0 comparrison.png}
+        \caption{}
+    \end{subfigure}
+    \caption{a) EFT coefficients significance for invariant Mass b) EFT coefficients significance for transverse Mass}
+    \label{fig:corss-section-comparission}
+\end{figure}
+
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ l c c c c c c }
+        \multicolumn{7}{c}{ $M(WZ)$ }                                                                            \\
+        Mass     & S1           & M0            & M1           & T0              & T1            & T2            \\
+        \hline
+        \multicolumn{7}{l}{ positive extrema }                                                                   \\
+        800 GeV  & [89,129]     & [20,28.4]     & [29,42.4]    & [2.1,2.8]       & [1.4,2.01]    & [4.1,6.03]    \\
+        900 GeV  & [-10,76.8]   & [1.1,17.2]    & [-0.41,25.3] & no extrema      & [-0.057,1.18] & [0.035,3.56]  \\
+        1000 GeV & [-447,71.7]  & [281,16.2]    & [-207,23.6]  & no extrema      & [-0.5,1.1]    & [-8.2,3.32]   \\
+        \multicolumn{7}{l}{ negative extrema }                                                                   \\
+        800 GeV  & [-130,-90.4] & [-27,-18.4]   & [-43,-29.6]  & [-1.9,-1.11]    & [-2.1,-1.48]  & [-6.3,-4.37]  \\
+        900 GeV  & [-78,248]    & [-16, -0.115] & [-26,0.329]  & [-0.89,0.109]   & [-1.3,0.0591] & [-3.8,0.186]  \\
+        1000 GeV & [-73,1096]   & [-15,5.52]    & [-24,9.92]   & [-0.81,0.231]   & [-1.2,14.3]   & [-3.6,1.04]   \\
+        \hline
+        \multicolumn{7}{c}{}                                                                                     \\
+        \multicolumn{7}{c}{ $M_{T}(WZ)$ }                                                                        \\
+        Mass     & S1           & M0            & M1           & T0              & T1            & T2            \\
+        \hline
+        \multicolumn{7}{l}{ positive extrema }                                                                   \\
+        800 GeV  & [75,113]     & [16,24.2]     & [24,36.2]    & no extrema      & [1.1,1.73]    & [3.2,5.0]     \\
+        900 GeV  & [15,68.4]    & [3.4,14.8]    & [4.9,22.2]   & no extrema      & [0.22,1.06]   & [0.6,3.06]    \\
+        1000 GeV & [-19,64.7]   & [220.45,14]   & [-23,21]     & no extrema      & [-0.33,1.0]   & [-0.45,2.89]  \\
+        \multicolumn{7}{l}{ negative extrema }                                                                   \\
+        800 GeV  & [-115,-76.3] & [-24,-15.5]   & [-36,-23.8]  & [-1.5,-0.792]   & [-1.5,-0.792] & [-5.2,-3.41]  \\
+        900 GeV  & [-70,-16.4]  & [-14,-2.99]   & [-22,-4.97]  & [-0.77,-0.0389] & [-1.1,-0.256] & [-3.3,-0.798] \\
+        1000 GeV & [-66,78.6]   & [-14,6.69]    & [-21,82.6]   & [-0.71,0.0189]  & [-1.0,0.97]   & [-3.1,37.9]   \\
+        \hline
+    \end{tabular}
+
+    \caption{Invariant mass lower and upper $95\%$ confidence level limits for a fit with linear and quadratic operators in WZ with all other aQCD parameters set to zero}
+    \label{tab:inv_mass_EFT_limits}
+
+\end{table}
+
+\begin{figure}
+
+    \centering
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MWZ_final/GM_H5_800/S1/2022-04-21/VBSSR/all_VV_MWZ_vbs.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MWZ_final/GM_H5_800/M0/2022-04-21/VBSSR/all_VV_MWZ_vbs.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MWZ_final/GM_H5_800/M1/2022-04-21/VBSSR/all_VV_MWZ_vbs.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MWZ_final/GM_H5_800/T0/2022-04-21/VBSSR/all_VV_MWZ_vbs.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MWZ_final/GM_H5_800/T1/2022-04-21/VBSSR/all_VV_MWZ_vbs.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MWZ_final/GM_H5_800/T1/2022-04-21/VBSSR/all_VV_MWZ_vbs.pdf}
+    \end{subfigure}
+
+    \caption{Invariant mass for parameters S1, M0, M1, T0, T1, T2 with best fit value for 800 GeV resonance}
+    \label{fig:all_mwz_800}
+\end{figure}
+
+\begin{figure}
+
+    \centering
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_final/GM_H5_800/S1/2022-04-21/VBSSR/all_VV_MTWZ.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_final/GM_H5_800/M0/2022-04-21/VBSSR/all_VV_MTWZ.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_final/GM_H5_800/M1/2022-04-21/VBSSR/all_VV_MTWZ.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_final/GM_H5_800/T0/2022-04-21/VBSSR/all_VV_MTWZ.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_final/GM_H5_800/T1/2022-04-21/VBSSR/all_VV_MTWZ.pdf}
+    \end{subfigure}
+    \begin{subfigure}{0.3\textwidth}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_final/GM_H5_800/T1/2022-04-21/VBSSR/all_VV_MTWZ.pdf}
+    \end{subfigure}
+
+    \caption{transverse mass for parameters S1, M0, M1, T0, T1, T2 with best fit value for 800 GeV resonance}
+    \label{fig:all_mtwz_800}
+\end{figure}
+
+
 \end{document}

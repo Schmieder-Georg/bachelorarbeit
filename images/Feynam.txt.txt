@@ -1,0 +1,15 @@
+\begin{center}
+    \feynmandiagram [layered layout, horizontal=a to b] {
+    b -- [boson, edge label'=\(W^{-}\)] c,
+    a [particle=\(\tau^{-}\)] -- [fermion] b -- [fermion] f1 [particle=\(\nu_{\tau}\)],
+    c -- [anti fermion] f2 [particle=\(\overline \nu_{e}\)],
+    c -- [fermion] f3 [particle=\(e^{-}\)],
+    };
+\end{center}
+
+\begin{center}
+    \feynmandiagram [horizontal=a to b] {
+    a [particle={\(\tau\)}] -- [fermion] b [blob] -- [fermion] e [particle={\(\nu_{\tau}\)}],
+    c [particle={\(e\)}]-- [fermion] b -- [fermion] d [particle={\(\nu_{e}\)}],
+    };
+\end{center}
