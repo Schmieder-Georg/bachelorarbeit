@@ -1,10 +1,12 @@
 # Fdb version 3
-["bibtex Event_selection"] 0 "Event_selection.aux" "Event_selection.bbl" "Event_selection" 0
+["biber sections/Event_selection"] 1651691990 "sections/Event_selection.bcf" "sections/Event_selection.bbl" "sections/Event_selection" 1651692001
+  "bib.bib" 1651516490 24555 86aa2f36bb6a86390fe997d565dff9ec ""
+  "sections/Event_selection.bcf" 1651692000 106717 6062d5a57eb6698d6a30e64535b393a6 "pdflatex"
+  "sections\Event_selection.bcf" 1651692000 106717 6062d5a57eb6698d6a30e64535b393a6 ""
   (generated)
-  "Event_selection.bbl"
-  "Event_selection.blg"
-["pdflatex"] 1651691535 "e:/Georg/Dokumente/Studium/bachelorarbeit/sections/Event_selection.tex" "sections/Event_selection.pdf" "Event_selection" 1651691535
-  "Event_selection.bbl" 1651691530 14757 4089e42211d1aaf2f352ccc796e8d6e7 "bibtex Event_selection"
+  "sections/Event_selection.bbl"
+  "sections/Event_selection.blg"
+["pdflatex"] 1651691997 "e:/Georg/Dokumente/Studium/bachelorarbeit/sections/Event_selection.tex" "sections/Event_selection.pdf" "Event_selection" 1651692001
   "Plots/SM_reproduction/all_VV_MTWZ.pdf" 1647083960 23254 b569ce86e6433c9bf805b0f3b90a56d9 ""
   "Plots/SM_reproduction/all_VV_MWZ_vbs.pdf" 1647083960 23097 3483e025086c776683998efa1077f5b2 ""
   "bib.bib" 1651516490 24555 86aa2f36bb6a86390fe997d565dff9ec ""
@@ -262,13 +264,14 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1646928434 4448422 1ce8db434ffa4259b75148f2b12051ea ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1646928532 2797709 a908bbe85d531fd2cad241e0fce36de4 ""
   "c:/texlive/2021/texmf.cnf" 1646928408 713 614551405fc44b98efbf516466e3c909 ""
-  "e:/Georg/Dokumente/Studium/bachelorarbeit/sections/Event_selection.tex" 1651691526 12062 55871674326e8ed355c80dfc4dd0f92f ""
+  "e:/Georg/Dokumente/Studium/bachelorarbeit/sections/Event_selection.tex" 1651691990 12061 0c129eab91956e502ddbebfd828e6c55 ""
   "preamble.tex" 1651675732 2262 4c24bf66e423e07de9322d99e2829c04 ""
   "sections/../Bachelorarbeit.tex" 1651675600 2755 79e7e324e33719bd640c9296df07794c ""
-  "sections/Event_selection.aux" 1651691535 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "sections/Event_selection.out" 0 -1 0 "pdflatex"
-  "sections/Event_selection.run.xml" 0 -1 0 "pdflatex"
-  "sections/Event_selection.tex" 1651691526 12062 55871674326e8ed355c80dfc4dd0f92f ""
+  "sections/Event_selection.aux" 1651692000 6086 04b6ee273bf9997878c4a52c387acadc "pdflatex"
+  "sections/Event_selection.bbl" 1651691993 14758 cf02232439c7533d69de15096b3de7b7 "biber sections/Event_selection"
+  "sections/Event_selection.out" 1651692000 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "sections/Event_selection.run.xml" 1651692000 2436 c31368e992334da1233ef6af7816080d "pdflatex"
+  "sections/Event_selection.tex" 1651691990 12061 0c129eab91956e502ddbebfd828e6c55 ""
   (generated)
   "sections/Event_selection.aux"
   "sections/Event_selection.bcf"

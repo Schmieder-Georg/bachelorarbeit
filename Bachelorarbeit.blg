@@ -1,0 +1,32 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Bachelorarbeit.blg'
+[147] biber-MSWIN32:340> INFO - === 
+[201] Biber.pm:418> INFO - Reading 'Bachelorarbeit.bcf'
+[374] Biber.pm:969> INFO - Using all citekeys in bib section 0
+[396] Biber.pm:4383> INFO - Processing section 0
+[412] Biber.pm:4574> INFO - Looking for bibtex file 'bib.bib' for section 0
+[497] bibtex.pm:1713> INFO - LaTeX decoding ...
+[635] bibtex.pm:1518> INFO - Found BibTeX data source 'bib.bib'
+[806] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[806] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[807] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[807] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[834] bbl.pm:654> INFO - Writing 'Bachelorarbeit.bbl' with encoding 'UTF-8'
+[850] bbl.pm:757> INFO - Output to Bachelorarbeit.bbl
+[850] Biber.pm:130> WARN - Entry 'Sampsonidou.25.11.2021' (bib.bib): Invalid format '25.11.2021' of date field 'date' - ignoring
+[851] Biber.pm:130> WARN - Entry 'Prof.MarkusSchumacherDr.StanLai.2012' (bib.bib): Invalid format '01.05.2022' of date field 'urldate' - ignoring
+[851] Biber.pm:130> WARN - Entry 'MichaSzleper.' (bib.bib): Invalid format '21.04.2022' of date field 'urldate' - ignoring
+[851] Biber.pm:130> WARN - Entry '.07.06.2021' (bib.bib): Invalid format '07.06.2021' of date field 'date' - ignoring
+[851] Biber.pm:130> WARN - Entry 'Teilchenwelt' (bib.bib): Invalid format '01.05.2022' of date field 'urldate' - ignoring
+[851] Biber.pm:130> WARN - Entry 'Prof.Dr.KlausReygersDr.RainerStamen.2020' (bib.bib): Invalid format '01.05.2022' of date field 'urldate' - ignoring
+[851] Biber.pm:130> WARN - legacy year field '27.05.2020' in entry 'Bittrich.27.05.2020' is not an integer - this will probably not sort properly.
+[851] Biber.pm:130> WARN - legacy year field '01.05.2022' in entry 'CERN.01.05.2022' is not an integer - this will probably not sort properly.
+[851] Biber.pm:130> WARN - Entry 'CERN.01.05.2022' (bib.bib): Invalid format '01.05.2022' of date field 'urldate' - ignoring
+[851] Biber.pm:130> WARN - Entry 'JoaoPequenao.27.03.2008' (bib.bib): Invalid format '27.03.2008' of date field 'date' - ignoring
+[851] Biber.pm:130> WARN - Entry 'Prof.Dr.CarlBender.2020' (bib.bib): Invalid format '02.05.2022' of date field 'urldate' - ignoring
+[851] Biber.pm:130> WARN - Entry 'Wikipedia.2021' (bib.bib): Invalid format '11.03.2022' of date field 'urldate' - ignoring
+[852] Biber.pm:130> WARN - Entry 'CERN.' (bib.bib): Invalid format '01.05.2022' of date field 'urldate' - ignoring
+[852] Biber.pm:130> WARN - Entry 'AdamFalkowski.2020' (bib.bib): Invalid format '11.01.2022' of date field 'urldate' - ignoring
+[852] Biber.pm:130> WARN - legacy year field '01.05.2022' in entry '.01.05.2022' is not an integer - this will probably not sort properly.
+[852] Biber.pm:130> WARN - Entry '.01.05.2022' (bib.bib): Invalid format '01.05.2022' of date field 'urldate' - ignoring
+[852] Biber.pm:132> INFO - WARNINGS: 16
