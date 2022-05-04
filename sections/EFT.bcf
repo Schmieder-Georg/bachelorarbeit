@@ -40,7 +40,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelnamespec</bcf:key>
@@ -274,7 +274,7 @@
   <bcf:options component="biblatex" type="online">
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelnamespec</bcf:key>
@@ -2346,12 +2346,16 @@
   <bcf:section number="0">
     <bcf:citekey order="1">Brivio.2017</bcf:citekey>
     <bcf:citekey order="2">Brivio.2017</bcf:citekey>
-    <bcf:citekey order="4">MSz</bcf:citekey>
-    <bcf:citekey order="5">MSz</bcf:citekey>
-    <bcf:citekey order="6">Kilian.2015</bcf:citekey>
-    <bcf:citekey order="7">Brivio.2017</bcf:citekey>
-    <bcf:citekey order="8">MSz</bcf:citekey>
-    <bcf:citekey order="9">Kilian.2015</bcf:citekey>
+    <bcf:citekey order="3">Brivio.</bcf:citekey>
+    <bcf:citekey order="4">MichaSzleper.</bcf:citekey>
+    <bcf:citekey order="5">MichaSzleper.</bcf:citekey>
+    <bcf:citekey order="6">Prof.Dr.CarlBender.2020</bcf:citekey>
+    <bcf:citekey order="7">Kilian.2015</bcf:citekey>
+    <bcf:citekey order="8">Brivio.2017</bcf:citekey>
+    <bcf:citekey order="9">Brivio.</bcf:citekey>
+    <bcf:citekey order="10">MichaSzleper.</bcf:citekey>
+    <bcf:citekey order="11">Prof.Dr.CarlBender.2020</bcf:citekey>
+    <bcf:citekey order="12">Kilian.2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

@@ -1,8 +1,8 @@
 \documentclass[../Bachelorarbeit.tex]{subfiles}
 
 \begin{document}
-The EFT samples for each parameter S0, M0, M1, T0, T1, T2 is fitted against the combined SM and GM Resonance data. It is assumed that the coefficients are only affected by aQCD couplings.
-Only one coefficient is fitted while the other coefficients are set to zero. As discussed in section \ref{sec:EFT} good fits are expected for sufficiently high resonance mass.
+The EFT samples for each parameter S0, M0, M1, T0, T1, T2 are fitted against the combined SM and GM Resonance data. It is assumed that the coefficients are only affected by anomalous QCG (aQCG) couplings.
+Only one coefficient is fitted at once while the other coefficients are set to zero. As discussed in section \ref{sec:EFT} good fits are expected for sufficiently high resonance mass.
 The fit can't identify small energies or high energy with small cross-sections resonances as shown in \ref{fig:S1_with_fit_diffrence_225}.
 
 \begin{figure}[h]
@@ -28,21 +28,21 @@ The fit can't identify small energies or high energy with small cross-sections r
 
 Evaluating which fit is good can be done qualitative by simply looking at the invariant Mass plots if the EFT Sample scaled with the best fit value is able to describe
 the Resonance one can argue that the fit is good. But this is not accurately possible for resonances peaks that are higher energy than the WZ peak, but the start of the peak is still part of the WZ peak.
-For a quantitative analysis the significance quotient has to be calculated from the log-likelehood function $f(x)=-2\Delta log(L)$.
-The significance can be calculate using $Z(x)=\sqrt{f(x)}$ resulting in $S = \frac{Z_{GM}(0)}{Z_{EFT}(0)}$.
-Here $Z_{GM}$ is the significance when the GM Sample is used as coefficient in EFT-Fun and fitted with SM as measurement and as prediction.
-The $Z_{EFT}$ is the fit of an EFT coefficient for the SM combined with the GM Model as measurement against the SM as prediction.
-$f(0)$ can be interpreted as the difference to the SM, if $f(0) = 0$ only the SM was measured and for $f(0) > 0$ the SM is excluded.
-The value of $f(0)$ can be read off from the Log-likelihood-funktion in \ref{fig:EFT_GM_Asimov_comparision}. The scale is dependent on
-the operator as well as the allowed range making it difficult to estimate a read off error. The error can be minimized by looking at positive and negative extrema and limiting the range to zero as well as the shape including both extrema.
-Since the likelihood-function continuous all plots give the same $f(0)$ value. All three ranges should be used in case only an extremum exists, or only one is recognized by the fit this is often the case for low resonace energies.
-Using this the error becomes small compared to the statistical errors. All EFT coefficients in \ref{fig:significans_plots} with $S>0.8$ are able to reproduce the GM Model with a statistical significant greater than $80\%$.
+\textcolor{blue}{For a quantitative analysis the significance quotient has to be calculated from the log-likelehood function $f(x)=-2\Delta log(L)$.
+    The significance can be calculated using $Z(x)=\sqrt{f(x)}$ resulting in $S = \frac{Z_{GM}(0)}{Z_{EFT}(0)}$.
+    Here $Z_{GM}$ is the significance when the GM Sample is used as coefficient in EFT-Fun and fitted with SM as measurement and as prediction.
+    The $Z_{EFT}$ is the fit of an EFT coefficient for the SM combined with the GM Model as measurement against the SM as prediction.
+    $f(0)$ can be interpreted as the difference to the SM, if $f(0) = 0$ only the SM was measured and for $f(0) > 0$ the SM is excluded.
+    The value of $f(0)$ can be read off from the log-likelihood-function in \ref{fig:EFT_GM_Asimov_comparision}. The scale is dependent on
+    the operator as well as the allowed range making it difficult to estimate a read off error. The error can be minimized by looking at positive and negative extrema and limiting the range to zero as well as the shape including both extrema.
+    Since the likelihood-function continuous all plots give the same $f(0)$ value. All three ranges should be used in case only an extremum exists, or only one is recognized by the fit this is often the case for low energy resonances.
+    Using this the error becomes small compared to the statistical errors. All EFT coefficients in \ref{fig:significans_plots} with $S>0.8$ are able to reproduce the GM Model with a statistical significance greater than $80\%$.}
 The result is independent of the resonance cross-section. This can be shown by scaling the resonance, in \ref{fig:corss-section-comparission} the cross-section is scaled with $2$ and $0.5$ which results in equal significance compared to the non-scaled resonances.
-The cross-section can't be scaled higher without breaking the fitting-tool as the values get unreasonably high. In the invariant mass plot for 0.5 times the cross-section, the cross-section becomes to low to be picked up by the fitting tool but in the transverse mass plot
+The cross-section can't be scaled higher without breaking the fitting-tool as the values get unreasonably high. In the invariant mass plot for 0.5 times the cross-section, the cross-section becomes too low to be picked up by the fitting tool but in the transverse mass plot
 the resonance was still picked up and accurately described even though the relevant energy doesn't change, and therefore the transverse mass plot becomes more interesting for low cross-section resonances. The 700 GeV sample has a significance of $0.7-0.8$ making it irrelevant for this analysis
-but with the high dependence on the binning one may be able to get a significant result by optimizing the binning. The EFT limits for relevant resonance masses are shown in \ref{tab:inv_mass_EFT_limits}. The Limits for both extrema should be equivalent but the EFT-Fun only expects one extremum when fitting
+but with the high dependence on the binning one may be able to get a significant result by optimizing the binning. The EFT limits for relevant resonance masses are shown in \ref{tab:inv_mass_EFT_limits}. The limits for both extrema should be equivalent but the EFT-Fun only expects one extremum when fitting
 and therefore includes the second extremum in the $95\%$CL if the second extremum is to close to the first extremum.  In order to find both extrema the range from a minimal range to zero for the negative extremum and from zero to a positive minimal range.
-The minimal range should leave space for the fit to find the best fit value. \textcolor{blue}{T0 doesn't show this behaviour and combined with the in \ref{fig:corss-section-comparission} shown ability to accurately describe low cross-section resonances may hint to a smaller impact of the Quadratic Term from T0.}
+The minimal range should leave space for the fit to find the best fit value. T0 doesn't show this behaviour which is likely caused by the larger uncertainties shown in \ref{fig:all_mwz_800} and \ref{fig:all_mtwz_800}.
 A full set of all parameters and both invariant mass and transverse mass are shown in \ref{fig:all_mwz_800} and \ref{fig:all_mtwz_800} for an 800 GeV resonance as this is the resonance with the lowest Energy and statistical significance. Other resonances are shown in the Appendix \ref{sec:appendix}.
 
 
@@ -125,7 +125,7 @@ A full set of all parameters and both invariant mass and transverse mass are sho
         \hline
     \end{tabular}
 
-    \caption{Invariant mass lower and upper $95\%$ confidence level limits for a fit with linear and quadratic operators in WZ with all other aQCD parameters set to zero}
+    \caption{Invariant mass lower and upper $95\%$ confidence level limits for a fit with linear and quadratic operators in WZ with all other aQCG parameters set to zero}
     \label{tab:inv_mass_EFT_limits}
 
 \end{table}

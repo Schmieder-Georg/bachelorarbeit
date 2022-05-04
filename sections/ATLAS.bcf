@@ -40,7 +40,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelnamespec</bcf:key>
@@ -274,7 +274,7 @@
   <bcf:options component="biblatex" type="online">
     <bcf:option type="singlevalued">
       <bcf:key>labelalpha</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>0</bcf:value>
     </bcf:option>
     <bcf:option type="multivalued">
       <bcf:key>labelnamespec</bcf:key>
@@ -2344,6 +2344,19 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">Evans.2008</bcf:citekey>
+    <bcf:citekey order="2">Evans.2008</bcf:citekey>
+    <bcf:citekey order="3">CERN.01.05.2022</bcf:citekey>
+    <bcf:citekey order="4">CERN.01.05.2022</bcf:citekey>
+    <bcf:citekey order="5">Evans.2008</bcf:citekey>
+    <bcf:citekey order="6">JoaoPequenao.27.03.2008</bcf:citekey>
+    <bcf:citekey order="7">Lippmann.2012</bcf:citekey>
+    <bcf:citekey order="8">JoaoPequenao.27.03.2008</bcf:citekey>
+    <bcf:citekey order="9">Lippmann.2012</bcf:citekey>
+    <bcf:citekey order="10">Evans.2008</bcf:citekey>
+    <bcf:citekey order="11">CERN.01.05.2022</bcf:citekey>
+    <bcf:citekey order="12">JoaoPequenao.27.03.2008</bcf:citekey>
+    <bcf:citekey order="13">Lippmann.2012</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

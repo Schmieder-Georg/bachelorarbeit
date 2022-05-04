@@ -1,6 +1,7 @@
 \documentclass[../Bachelorarbeit.tex]{subfiles}
 
 \begin{document}
+\section{Event selection}
 \label{sec:Event_selection}
 \begin{table}[h]
     \begin{tabular}{  l c c c }
@@ -101,7 +102,7 @@ the current ROOT version 6.14.04 used by the CAF can process.
         WZ SM + Background & $475.3466 \pm 3.2912$ & $165.9529 \pm 1.4050$ & $200 \pm 41$   \\
         \hline
     \end{tabular}
-    \caption{Overwiev of Events in VBSSR region. mc16a is compared to the \cite{STDM} for the reproduction of the SM EFT Limits.
+    \caption{Overwiev of Events in VBSSR region. mc16a is compared to the \cite{Sampsonidou.25.11.2021} for the reproduction of the SM EFT Limits.
         While the Resonance Fitting is done with the mc16e+mc16d data. The differences between the mc16a and the SM is like cause by some ELCore settings
         since the cuts possible in the CAF tool where replicated.}
     \label{tab:SM_re}
@@ -122,10 +123,48 @@ the current ROOT version 6.14.04 used by the CAF can process.
         T2       & [-2.4 , 2.16]                              & [-2.2 , 1.96]        & [-2.8 , 2.8]   \\
         \hline
     \end{tabular}
-    \caption{Asmiove fit Limits for SM data with $95\%$ CL. Differences arise from the use of mc16e, mc16d data compared to the mc16a data and the use of an BSM search optimized binning compared to the SM optimized binning used in \cite{NEEd OSurce}}
+    \caption{Asmiove fit Limits for SM data with $95\%$ CL. Differences arise from the use of mc16e, mc16d data compared to the mc16a data and the use of an BSM search optimized binning compared to the SM optimized binning used in \cite{Sampsonidou.25.11.2021}}
     \label{tab:asimov}
 \end{table}
 
+\section{Maxmimum Likelihood Methode}
+The fitting tool provides the log-Likelihood function for a given parameter. This is done using the maximum likelihood method. \cite{Prof.Dr.KlausReygersDr.RainerStamen.2020}, \cite{Prof.MarkusSchumacherDr.StanLai.2012} and \cite{K.F.RILEY.} provide an in depth view into the topic, but a short introduction is given here to understand the fitting results.
+The maximum likelihood method takes observed data and an assumed probability distribution in order to give the best estimate for a parameter.
 
+The Likelihood function for a joint probability distribution(pdf) is defined as:
+\begin{equation}
+    L(\overrightarrow{x},\overrightarrow{\Theta}) = \prod_{i=1}^{n} f(x_{i},\overrightarrow{\Theta})
+\end{equation}
 
+With distribution $f(x;\overrightarrow{\Theta})$, $\overrightarrow{\Theta} = (\Theta_{1},\Theta_{2},\dots,\Theta_{m})$ and a measurement of n independent values $\overrightarrow{x}=(x_{1},x_{2},\dots,x_{n})$.
+The Maxmimum of the Likelihood function is the best estimate for the parameter $\overrightarrow{\Theta}$.
+It is often particle to maximize the log-Likelihood function $ln L$. The derivative can be written as follows since the logarithm is a monotonically increasing function.
+\begin{equation}
+    \frac{\partial L}{\partial \Theta_{i}} \bigg \vert_{\overrightarrow{\Theta}=\hat{\Theta}} = 0 \qquad \Longrightarrow \qquad \frac{\partial ln L}{\partial \Theta_{i}} \bigg \vert_{\overrightarrow{\Theta}=\hat{\Theta}}=0
+\end{equation}
+Where $\hat{\Theta}$ is the ML estimate. This can be applied to a Gaussian distribution with $E[x_{i}]=\mu(y_{i},\overrightarrow{\Theta})$ and $V[x_{i}]=\sigma_{i}^{2}$
+
+\begin{equation}
+    f(x,\overrightarrow{\Theta}) = \frac{1}{\sqrt{2\pi \sigma^{2}}} e^{-\frac{(x-\mu(y_{i},\overrightarrow{\Theta}))^{2}}{2 \sigma^{2}}}
+\end{equation}
+
+resulting in a log-Likelihood function
+
+\begin{equation}
+    ln \: L(\overrightarrow{\Theta}) = \sum^{n}_{i=1} \left( ln \frac{1}{\sqrt{2\pi}}-ln \: \sigma - \frac{(x_{i} - \mu(y_{i},\overrightarrow{\Theta}))^2}{2 \sigma^{2}}\right)
+\end{equation}
+Only $\mu$ is dependent in the parameter on $\overrightarrow{\Theta}$ and therefore only the third therm is relevant. One can now compare the result to the chi-squared method
+\begin{equation}
+    \chi^{2}(\overrightarrow{\Theta}) = \sum^{n}_{i=1} \frac{(x_{i} - \mu(y_{i},\overrightarrow{\Theta}))^2}{\sigma^{2}}
+\end{equation}
+And the log-Likelihood function can therefore be written as $-2 ln \: L = \chi^{2}$. If $x_{i}$ isn't Gaussian distributed than the chi-squared method is an "ad hoc" method.
+This form has the advantage that if a gaussian distribution is assumed the parameters can be easily determined but can give asymmetric uncertainties.
+The two sigma environment is given as
+
+\subsection{Likelihood ratio test}
+
+\begin{equation}
+    \lambda(\epsilon) = \frac{L(\epsilon,\overrightarrow{\Theta}_{0})}{L(\epsilon,\hat{\Theta})}
+\end{equation}
+where $\overrightarrow{\Theta}_{0}$ donates the value $\overrightarrow{\Theta}$ for which L is maximized for a given $\epsilon}$.
 \end{document}
