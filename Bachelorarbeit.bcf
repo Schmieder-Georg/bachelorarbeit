@@ -2376,7 +2376,7 @@
     <bcf:citekey order="30">Prof.Dr.KlausReygersDr.RainerStamen.2020</bcf:citekey>
     <bcf:citekey order="31">Prof.MarkusSchumacherDr.StanLai.2012</bcf:citekey>
     <bcf:citekey order="32">K.F.RILEY.</bcf:citekey>
-    <bcf:citekey order="33">Maritn erdman</bcf:citekey>
+    <bcf:citekey order="33">Erdmann.2020</bcf:citekey>
     <bcf:citekey order="45">Evans.2008</bcf:citekey>
     <bcf:citekey order="46">CERN.01.05.2022</bcf:citekey>
     <bcf:citekey order="47">JoaoPequenao.27.03.2008</bcf:citekey>
@@ -2393,7 +2393,7 @@
     <bcf:citekey order="58">Prof.Dr.KlausReygersDr.RainerStamen.2020</bcf:citekey>
     <bcf:citekey order="59">Prof.MarkusSchumacherDr.StanLai.2012</bcf:citekey>
     <bcf:citekey order="60">K.F.RILEY.</bcf:citekey>
-    <bcf:citekey order="61">Maritn erdman</bcf:citekey>
+    <bcf:citekey order="61">Erdmann.2020</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

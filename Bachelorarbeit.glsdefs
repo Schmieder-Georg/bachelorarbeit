@@ -1,0 +1,84 @@
+\glsdefs@newdocentry{sm}%
+{%
+name={SM},%
+sort={SM},%
+type={acronym},%
+first={Standard Model of particle physics\glsspace (SM)},%
+firstplural={Standard Model of particle physics\acrpluralsuffix \glsspace (SM\acrpluralsuffix )},%
+text={SM},%
+plural={SM\acrpluralsuffix },%
+description={Standard Model of particle physics},%
+descriptionplural={Standard Model of particle physics\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Standard Model of particle physics},%
+longplural={Standard Model of particle physicss},%
+short={SM},%
+shortplural={SMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{eft}%
+{%
+name={EFT},%
+sort={EFT},%
+type={acronym},%
+first={Effective field theory\glsspace (EFT)},%
+firstplural={Effective field theory\acrpluralsuffix \glsspace (EFT\acrpluralsuffix )},%
+text={EFT},%
+plural={EFT\acrpluralsuffix },%
+description={Effective field theory},%
+descriptionplural={Effective field theory\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Effective field theory},%
+longplural={Effective field theorys},%
+short={EFT},%
+shortplural={EFTs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{gm}%
+{%
+name={GM},%
+sort={GM},%
+type={acronym},%
+first={Georgi-Machacek model\glsspace (GM)},%
+firstplural={Georgi-Machacek model\acrpluralsuffix \glsspace (GM\acrpluralsuffix )},%
+text={GM},%
+plural={GM\acrpluralsuffix },%
+description={Georgi-Machacek model},%
+descriptionplural={Georgi-Machacek model\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Georgi-Machacek model},%
+longplural={Georgi-Machacek models},%
+short={GM},%
+shortplural={GMs},%
+counter={page},%
+parent={},%
+%
+}%
+

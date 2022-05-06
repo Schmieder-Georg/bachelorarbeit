@@ -1,6 +1,6 @@
 
 \input{preamble}
-
+\input{glossar}
 \addbibresource{bib.bib}
 
 \begin{document}
@@ -69,6 +69,9 @@ Deutsch \\
 
 \chapter{Introduction}
 \subfile{sections/Introduction.tex}
+\printnoidxglossary[type=acronym]
+\printacronyms
+
 \chapter{Experimental Setup}
 \subfile{sections/ATLAS.tex}
 
