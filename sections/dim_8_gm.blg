@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'sections/dim_8_gm.blg'
+[137] biber:340> INFO - === Do Mai  5, 2022, 14:24:38
+[162] Biber.pm:418> INFO - Reading 'sections/dim_8_gm.bcf'
+[300] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[328] bbl.pm:654> INFO - Writing 'sections/dim_8_gm.bbl' with encoding 'UTF-8'
+[328] bbl.pm:757> INFO - Output to sections/dim_8_gm.bbl
+[328] Biber.pm:130> WARN - The file 'sections/dim_8_gm.bcf' does not contain any citations!
+[328] Biber.pm:132> INFO - WARNINGS: 1

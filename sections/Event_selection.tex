@@ -159,12 +159,30 @@ Only $\mu$ is dependent in the parameter on $\overrightarrow{\Theta}$ and theref
 \end{equation}
 And the log-Likelihood function can therefore be written as $-2 ln \: L = \chi^{2}$. If $x_{i}$ isn't Gaussian distributed than the chi-squared method is an "ad hoc" method.
 This form has the advantage that if a gaussian distribution is assumed the parameters can be easily determined but can give asymmetric uncertainties.
-The two sigma environment is given as
+The standard deviation can be calculated by setting the derivative of L with respective to $\sigma$ and derivative of L with respective to $\mu$ equal to zero.
 
+\begin{equation}
+    \frac{\partial ln L}{\partial \mu} = \sum_{i = 1}^{N} \frac{x_{i}-\mu}{\sigma^{2}} = 0
+\end{equation}
+
+\begin{equation}
+    \frac{\partial ln L}{\partial \sigma} = \sum_{i = 1}^{N} \frac{(x_{i}-\mu)^{2}}{\sigma_{i}^{3}} - \frac{1}{\sigma} = 0
+\end{equation}
+These to equations can now be solved simultaneously leading to
+\begin{equation}
+    \mu = \frac{1}{N} \sum^{N}_{i = 1} x_{i} = \overline{x} \qquad \textnormal{ and } \qquad \sigma^{2} = \frac{1}{N} \sum^{N}_{i = 1} (x_{i}-\overline{x})^{2} = n
+\end{equation}
+With this the one sigma and two sigma environment can be calculated for a negative log-likelihood function as $1\sigma=1$ and $2\sigma=4$ \cite{Maritn erdman}
 \subsection{Likelihood ratio test}
-
+The likelihood-ratio test is used to estimate the goodness of fit based on their likelihoods. In general the denominator contains the likelihood for the entire parameter space, while numerator introduces constrains on the parameter space.
 \begin{equation}
     \lambda(\epsilon) = \frac{L(\epsilon,\overrightarrow{\Theta}_{0})}{L(\epsilon,\hat{\Theta})}
 \end{equation}
-where $\overrightarrow{\Theta}_{0}$ donates the value $\overrightarrow{\Theta}$ for which L is maximized for a given $\epsilon$.
+where $\overrightarrow{\Theta}_{0}$ donates the value $\overrightarrow{\Theta}$ for which L is maximized for a given $\epsilon$. $\epsilon$ is the
+conditional maximum-likelihood estimator of $\Theta$. In case of the log-likelihood function this can be written as:
+
+\begin{equation}
+    \lambda = -2(ln(\frac{L(A)}{L(B)})= -2(ln L(A)-ln L(B))=-2 \Delta L
+\end{equation}
+In the context of fitting in EFT $L(A)$ donates a fixed parameter while $L(B)$ donates the floating parameter. The likelihood-ratio is than plotted against the parameter values  \ref{fig:S1_with_fit_diffrence_225}.
 \end{document}

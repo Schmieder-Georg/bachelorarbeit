@@ -16,8 +16,7 @@
 \contentsline {subsection}{\numberline {4.2.1}Likelihood ratio test}{27}{subsection.4.2.1}%
 \contentsline {chapter}{\numberline {5}Results}{29}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Summery and Outlook}{35}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Bibliography}{37}{chapter.7}%
-\contentsline {chapter}{\nonumberline List of Figures}{39}{chapter*.25}%
-\contentsline {chapter}{\nonumberline List of Tables}{41}{chapter*.26}%
-\contentsline {chapter}{\numberline {8}Appendix}{43}{chapter.8}%
+\contentsline {chapter}{\nonumberline List of Figures}{37}{chapter*.25}%
+\contentsline {chapter}{\nonumberline List of Tables}{39}{chapter*.26}%
+\contentsline {chapter}{\numberline {7}Appendix}{41}{chapter.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
