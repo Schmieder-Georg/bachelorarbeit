@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'sections\summery.blg'
+[143] biber-MSWIN32:340> INFO - === 
+[188] Biber.pm:418> INFO - Reading 'sections\summery.bcf'
+[355] Biber.pm:972> INFO - Found 0 citekeys in bib section 0
+[378] bbl.pm:654> INFO - Writing 'sections\summery.bbl' with encoding 'UTF-8'
+[378] bbl.pm:757> INFO - Output to sections\summery.bbl
+[378] Biber.pm:130> WARN - The file 'sections\summery.bcf' does not contain any citations!
+[378] Biber.pm:132> INFO - WARNINGS: 1

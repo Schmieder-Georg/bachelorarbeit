@@ -9,11 +9,11 @@
 \contentsline {subsection}{\numberline {3.1.1}Fermi Theory on the example Tau Decay}{9}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Standard Model Effective Field Theory (\acrshort {smeft})}{12}{subsection.3.1.2}%
 \contentsline {subsection}{\numberline {3.1.3}EFT validity and unitarity violation}{13}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}BSM Theories}{14}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Vector Boson Scattering}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.2}BSM Theories}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Vector Boson Scattering}{17}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Event Selection and Statistical Method}{19}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Event selection}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Maxmimum Likelihood Methode}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Maximum Likelihood Method}{22}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Likelihood ratio test}{23}{section.4.3}%
 \contentsline {chapter}{\numberline {5}Results}{25}{chapter.5}%
 \contentsline {chapter}{\numberline {6}Summery and Outlook}{31}{chapter.6}%
@@ -21,8 +21,8 @@
 \contentsline {chapter}{\nonumberline List of Figures}{37}{chapter*.27}%
 \contentsline {chapter}{\nonumberline List of Tables}{39}{chapter*.28}%
 \contentsline {chapter}{\numberline {8}Appendix}{41}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Significance of dim-8 operators}{41}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Cross-section comparison for dim-8 operators}{44}{section.8.2}%
+\contentsline {section}{\numberline {8.1}Significance of dim-8 operators}{43}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Cross-section comparison for dim-8 operators}{45}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Resonances}{47}{section.8.3}%
 \contentsline {subsection}{\numberline {8.3.1}900 GeV resonance}{47}{subsection.8.3.1}%
 \contentsline {subsection}{\numberline {8.3.2}1000 GeV resonance}{48}{subsection.8.3.2}%

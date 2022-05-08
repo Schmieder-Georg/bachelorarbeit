@@ -1,23 +1,24 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'sections\EFT.blg'
-[143] biber-MSWIN32:340> INFO - === 
-[199] Biber.pm:418> INFO - Reading 'sections\EFT.bcf'
-[373] Biber.pm:972> INFO - Found 5 citekeys in bib section 0
-[396] Biber.pm:4383> INFO - Processing section 0
-[412] Biber.pm:4574> INFO - Looking for bibtex file 'bib.bib' for section 0
-[500] bibtex.pm:1713> INFO - LaTeX decoding ...
-[4893] bibtex.pm:1518> INFO - Found BibTeX data source 'bib.bib'
-[4979] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[4979] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[4980] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[4980] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[4990] bbl.pm:654> INFO - Writing 'sections\EFT.bbl' with encoding 'UTF-8'
-[4995] bbl.pm:757> INFO - Output to sections\EFT.bbl
-[4996] Biber.pm:130> WARN - Duplicate entry key: 'Brivio.' in file 'bib.bib', skipping ...
-[4996] Biber.pm:130> WARN - Entry 'Prof.Dr.CarlBender.2020' (bib.bib): Invalid format '02.05.2022' of date field 'urldate' - ignoring
-[4996] Biber.pm:130> WARN - Entry 'MichaSzleper.' (bib.bib): Invalid format '21.04.2022' of date field 'urldate' - ignoring
-[4996] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_7HWA\283e1cb250985c2debc501124f55eeff_7080.utf8, line 91, warning: 341 characters of junk seen at toplevel
-[4996] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_7HWA\283e1cb250985c2debc501124f55eeff_7080.utf8, line 107, warning: 154 characters of junk seen at toplevel
-[4997] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_7HWA\283e1cb250985c2debc501124f55eeff_7080.utf8, line 129, warning: possible runaway string started at line 128
-[4997] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_7HWA\283e1cb250985c2debc501124f55eeff_7080.utf8, line 160, warning: 96 characters of junk seen at toplevel
-[4997] Biber.pm:132> INFO - WARNINGS: 7
+[151] biber-MSWIN32:340> INFO - === 
+[211] Biber.pm:418> INFO - Reading 'sections\EFT.bcf'
+[383] Biber.pm:972> INFO - Found 10 citekeys in bib section 0
+[406] Biber.pm:4383> INFO - Processing section 0
+[421] Biber.pm:4574> INFO - Looking for bibtex file 'bib.bib' for section 0
+[511] bibtex.pm:1713> INFO - LaTeX decoding ...
+[4686] bibtex.pm:1518> INFO - Found BibTeX data source 'bib.bib'
+[4824] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4824] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4824] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[4824] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[4839] bbl.pm:654> INFO - Writing 'sections\EFT.bbl' with encoding 'UTF-8'
+[4846] bbl.pm:757> INFO - Output to sections\EFT.bbl
+[4847] Biber.pm:130> WARN - Entry 'Kundu.28.11.2021' (bib.bib): Invalid format '28.11.2021' of date field 'date' - ignoring
+[4847] Biber.pm:130> WARN - legacy year field '15.02.2019' in entry 'EleniVryonidou.15.02.2019' is not an integer - this will probably not sort properly.
+[4847] Biber.pm:130> WARN - Entry 'Prof.Dr.CarlBender.2020' (bib.bib): Invalid format '02.05.2022' of date field 'urldate' - ignoring
+[4847] Biber.pm:130> WARN - Entry 'MichaSzleper.' (bib.bib): Invalid format '21.04.2022' of date field 'urldate' - ignoring
+[4847] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_1eEi\283e1cb250985c2debc501124f55eeff_19736.utf8, line 91, warning: 341 characters of junk seen at toplevel
+[4847] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_1eEi\283e1cb250985c2debc501124f55eeff_19736.utf8, line 107, warning: 154 characters of junk seen at toplevel
+[4847] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_1eEi\283e1cb250985c2debc501124f55eeff_19736.utf8, line 129, warning: possible runaway string started at line 128
+[4847] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_1eEi\283e1cb250985c2debc501124f55eeff_19736.utf8, line 160, warning: 96 characters of junk seen at toplevel
+[4847] Biber.pm:132> INFO - WARNINGS: 8
