@@ -25,5 +25,5 @@
 \contentsline {section}{\numberline {8.2}Cross-section comparison for dim-8 operators}{45}{section.8.2}%
 \contentsline {section}{\numberline {8.3}Resonances}{47}{section.8.3}%
 \contentsline {subsection}{\numberline {8.3.1}900 GeV resonance}{47}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}1000 GeV resonance}{48}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.2}1000 GeV resonance}{49}{subsection.8.3.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

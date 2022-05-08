@@ -1,0 +1,21 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'appendix.blg'
+[143] biber-MSWIN32:340> INFO - === 
+[664] Biber.pm:418> INFO - Reading 'sections/appendix.bcf'
+[830] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[852] Biber.pm:4383> INFO - Processing section 0
+[867] Biber.pm:4574> INFO - Looking for bibtex file 'bib.bib' for section 0
+[934] bibtex.pm:1713> INFO - LaTeX decoding ...
+[5254] bibtex.pm:1518> INFO - Found BibTeX data source 'bib.bib'
+[5309] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[5309] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[5310] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[5310] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[5316] bbl.pm:654> INFO - Writing 'appendix.bbl' with encoding 'UTF-8'
+[5317] bbl.pm:757> INFO - Output to appendix.bbl
+[5317] Biber.pm:130> WARN - Entry '.07.06.2021' (bib.bib): Invalid format '07.06.2021' of date field 'date' - ignoring
+[5317] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_pKmY\283e1cb250985c2debc501124f55eeff_5772.utf8, line 91, warning: 341 characters of junk seen at toplevel
+[5317] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_pKmY\283e1cb250985c2debc501124f55eeff_5772.utf8, line 107, warning: 154 characters of junk seen at toplevel
+[5317] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_pKmY\283e1cb250985c2debc501124f55eeff_5772.utf8, line 129, warning: possible runaway string started at line 128
+[5317] Biber.pm:130> WARN - BibTeX subsystem: C:\Users\schmi\AppData\Local\Temp\biber_tmp_pKmY\283e1cb250985c2debc501124f55eeff_5772.utf8, line 160, warning: 96 characters of junk seen at toplevel
+[5317] Biber.pm:132> INFO - WARNINGS: 5
