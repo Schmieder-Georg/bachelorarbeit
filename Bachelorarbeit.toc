@@ -1,22 +1,29 @@
 \babel@toc {english}{}\relax 
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Experimental Setup}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}ATLAS}{12}{section.2.1}%
-\contentsline {chapter}{\numberline {3}Theoretical Foundation}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Effective Field Theory}{15}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Fermi Theory on the example Tau Decay}{15}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Standard Model Effective Field Theory (SMEFT)}{18}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}EFT validity and unitarity violation}{19}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}BSM Theories}{20}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Vector Boson Scattering}{22}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Event Selection and Statistical Method}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Event selection}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Maxmimum Likelihood Methode}{28}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Likelihood ratio test}{29}{subsection.4.2.1}%
-\contentsline {chapter}{\numberline {5}Results}{31}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Summery and Outlook}{37}{chapter.6}%
-\contentsline {chapter}{\nonumberline List of Figures}{39}{chapter*.27}%
-\contentsline {chapter}{\nonumberline List of Tables}{41}{chapter*.28}%
-\contentsline {chapter}{\numberline {7}Appendix}{43}{chapter.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Experimental Setup}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Large Hadron Collider}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.2}ATLAS detector}{6}{section.2.2}%
+\contentsline {chapter}{\numberline {3}Theoretical Foundation}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Effective Field Theory}{9}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Fermi Theory on the example Tau Decay}{9}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Standard Model Effective Field Theory (\acrshort {smeft})}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}EFT validity and unitarity violation}{13}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}BSM Theories}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Vector Boson Scattering}{16}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Event Selection and Statistical Method}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Event selection}{19}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Maxmimum Likelihood Methode}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Likelihood ratio test}{23}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Results}{25}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Summery and Outlook}{31}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Bibliography}{33}{chapter.7}%
+\contentsline {chapter}{\nonumberline List of Figures}{37}{chapter*.27}%
+\contentsline {chapter}{\nonumberline List of Tables}{39}{chapter*.28}%
+\contentsline {chapter}{\numberline {8}Appendix}{41}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Significance of dim-8 operators}{41}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Cross-section comparison for dim-8 operators}{44}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Resonances}{47}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}900 GeV resonance}{47}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}1000 GeV resonance}{48}{subsection.8.3.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

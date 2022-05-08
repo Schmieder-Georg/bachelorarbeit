@@ -9,7 +9,7 @@
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
    sodipodi:docname="EFT_validity.svg"
-   inkscape:export-filename="E:\Georg\Dokumente\Studium\bachelorarbeit\images\Resonace_Fit.png"
+   inkscape:export-filename="E:\Georg\Dokumente\Studium\bachelorarbeit\images\EFT_validity.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -26,13 +26,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="px"
      showgrid="false"
-     inkscape:zoom="0.5"
-     inkscape:cx="1033"
-     inkscape:cy="622"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="946.10887"
+     inkscape:cy="405.87929"
      inkscape:window-width="1904"
      inkscape:window-height="919"
-     inkscape:window-x="8"
-     inkscape:window-y="40"
+     inkscape:window-x="2456"
+     inkscape:window-y="254"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer1" />
   <defs
@@ -99,32 +99,32 @@
        d="m 21.512605,204.36975 c 75.294118,0 75.294118,0 75.294118,0"
        id="path133869" />
     <path
-       style="fill:none;stroke:#0099c4;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;stroke:#006ab2;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 120.11204,301.17647 c 0,0 206.16247,-261.736694 523.47339,-7.17086 317.31092,254.56582 604.14567,514.5098 1023.64147,466.10644"
        id="path134036" />
     <path
-       style="fill:none;stroke:#009e00;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#69af22;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 120.11204,301.17647 c 0,0 204.36975,-267.114845 537.81513,1.79272 333.44538,268.90756 616.69463,643.58543 1009.29973,586.21849"
        id="path136455" />
     <path
-       style="fill:none;stroke:#bd00b4;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
+       style="fill:none;stroke:#93107d;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke fill markers"
        d="m 120.11204,301.17647 c 0,0 184.64986,-261.736694 528.85155,-1.79272 344.20168,259.94398 636.41461,467.89916 740.39211,408.7395 103.9776,-59.15966 265.3222,-227.67507 464.3138,-26.89076"
        id="path137494" />
     <path
-       style="fill:none;stroke:#e6a500;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#ee7f00;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="M 120.11204,301.17647 C 120.11204,301.17647 322,84 580,254 c 258,170 202,104 278,148 76,44 38,388 144,318 106,-70 242,-362 284,-230 42,132 70,452 252,536"
        id="path139193" />
     <path
-       style="fill:none;stroke:#e6a500;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:20, 40;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;stroke:#ee7f00;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:20, 40;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1066,114 v 890"
        id="path144805" />
     <path
-       style="fill:none;stroke:#bd00b4;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:20, 40;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       style="fill:none;stroke:#93107d;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:20, 40;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
        d="m 1656,115.5 v 890"
        id="path144805-4" />
     <text
        xml:space="preserve"
-       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px"
+       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#ee7f00;fill-opacity:1"
        x="1050"
        y="92"
        id="text171112"><tspan
@@ -132,10 +132,10 @@
          id="tspan171110"
          x="1050"
          y="92"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#e6a500;fill-opacity:1">Λ</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#ee7f00;fill-opacity:1">Λ</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:45.3333px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#e6a500;fill-opacity:1"
+       style="font-size:45.3333px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#ee7f00;fill-opacity:1"
        x="1092"
        y="98"
        id="text268477"><tspan
@@ -143,10 +143,10 @@
          id="tspan268475"
          x="1092"
          y="98"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.3333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold'">1</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.3333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#ee7f00;fill-opacity:1">1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#bd00b4;fill-opacity:1"
+       style="font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#93107d;fill-opacity:1"
        x="1634.3672"
        y="95.84375"
        id="text171112-6"><tspan
@@ -154,10 +154,10 @@
          id="tspan171110-8"
          x="1634.3672"
          y="95.84375"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#bd00b4;fill-opacity:1">Λ</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#93107d;fill-opacity:1">Λ</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:45.3333px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#bd00b4;fill-opacity:1"
+       style="font-size:45.3333px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans';letter-spacing:0px;fill:#93107d;fill-opacity:1"
        x="1676.3672"
        y="101.84375"
        id="text268477-8"><tspan
@@ -165,10 +165,10 @@
          id="tspan268475-4"
          x="1676.3672"
          y="101.84375"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.3333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#bd00b4;fill-opacity:1">2</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:45.3333px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#93107d;fill-opacity:1">2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#e6a500;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#ee7f00;fill-opacity:1"
        x="1136"
        y="432"
        id="text319387"><tspan
@@ -176,10 +176,10 @@
          id="tspan319385"
          x="1136"
          y="432"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#e6a500;fill-opacity:1">Model 1</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#ee7f00;fill-opacity:1">Model 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#bd00b4;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#93107d;fill-opacity:1"
        x="1668"
        y="564"
        id="text360885"><tspan
@@ -187,10 +187,10 @@
          id="tspan360883"
          x="1668"
          y="564"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#bd00b4;fill-opacity:1">Model 2</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#93107d;fill-opacity:1">Model 2</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#0099c4;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#006ab2;fill-opacity:1"
        x="1523.4062"
        y="746"
        id="text360885-3"><tspan
@@ -198,10 +198,10 @@
          id="tspan360883-1"
          x="1523.4062"
          y="746"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#0099c4;fill-opacity:1">EFT</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#006ab2;fill-opacity:1">EFT</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#009e00;fill-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';letter-spacing:0px;fill:#69af22;fill-opacity:1"
        x="1520.4688"
        y="880.84375"
        id="text360885-3-4"><tspan
@@ -209,6 +209,6 @@
          id="tspan360883-1-9"
          x="1520.4688"
          y="880.84375"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#009e00;fill-opacity:1">SM</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:64px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#69af22;fill-opacity:1">SM</tspan></text>
   </g>
 </svg>

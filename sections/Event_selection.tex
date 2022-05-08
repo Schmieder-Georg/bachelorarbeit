@@ -37,14 +37,14 @@
     \label{tab:eventselection}
 \end{table}
 
-Event Selection is done in order to degrease background and get a clean signal process. VBS processes have
+Event Selection is done in order to degrease background and get a clean signal process. \acrshort{vbs} processes have
 a small cross-section around 1 fb resulting in a small event count. In the 2015 and 2016 Atlas
-run with 36 $fb^{-1}$ not even 100 events produce VBS processes.
+run with 36 $fb^{-1}$ not even 100 events produce \acrshort{vbs} processes.
 There for one has to carefully select Events in order to get a meaningful signal process. The Events Selection is implemented
-as described in \cite{Bittrich.27.05.2020} using the Common Analysis Framework(CAF). The Object selection however was already done in ELCore
-and account for the Event cleaning, GoodRunList, Trigger, Primary Vertex in Table \ref{tab:eventselection} these cant be change in the CAF.
+as described in \cite{Bittrich.27.05.2020} using the Common Analysis Framework(CAF)\cite{ATLASGroup.}. The Object selection however was already done in ELCore
+and account for the Event cleaning, GoodRunList, Trigger, Primary Vertex in Table \ref{tab:eventselection} these can't be change in the CAF.
 Therefore, only the Event selection done in the CAF will be discussed. ELCore produces beam reconstruction
-level samples the Event Selection in the CAF is split into the three phase space regions lllvjj, WZjj and the VBS signal region(VBSSR).
+level samples. The Event Selection in the CAF is split into the three phase space regions lllvjj, WZjj and the \acrshort{vbs} signal region(VBSSR).
 Even though the regions are different the selection criteria overlap. The WZjj region use the selection criteria of
 the lllvjj as base and introduces new selection criteria.
 The same is true for the VBSSR which builds upon the WZjj region as show in Table \ref{tab:eventselection}.
@@ -62,10 +62,15 @@ The Transverse mass of the $W{\pm}$-Boson is required to be greater than $M_{T}(
 The Z lepton pair has to have an invariant mass within 10 GeV of the Z-Boson mass $m_{Z}=91.1876$.
 \\\\
 \textbf{VBSSR region:} The resonance fitting is done in the VBSSR region. For this additional requirements must be added
-increasing WZjj-EW6 contribution compared to WZjj-EW4 and WZjj-EW5. For this two cuts for the tagging jets have to added. The invariant mass must be
+increasing WZjj-EW6 contribution compared to WZjj-EW4 and WZjj-EW5. For this two cuts for the tagging jets have to be added. The invariant mass must be
 $M(jj)>500$ GeV and the absolute rapidity difference hast be constraint $\Delta Y(jj) >2$.
 \\\\
-
+Figure \ref*{fig:SM_re} shows the cuts for the VBSSR region applied for the combined data from mc16d and mc16e with a combined luminosity of 102.7 $fb^{-1}$.
+These histograms will be combined to WZ + Background in the following Plots.
+Ideally one would use all campaigns mc16a, mc16d and mc16e with combined luminosity of 139 $fb^{-1}$ to achieve the best statistic.
+%For this Analysis the \acrshort{eft} Samples as well as the \acrshort{gm} resonance samples have to be included resulting in to many Branches in the TQSampleTree than
+%the current ROOT version 6.14.04 used by the CAF can process.
+This however is currently not possible due to limits in CAF.
 \begin{figure}[h]
     \centering
     \begin{subfigure}{0.45\textwidth}
@@ -78,18 +83,19 @@ $M(jj)>500$ GeV and the absolute rapidity difference hast be constraint $\Delta 
         \includegraphics[width=\textwidth]{Plots/SM_reproduction/all_VV_MTWZ.pdf}
         \caption{}
     \end{subfigure}
-    \caption{VBSSR region for a) invariant Mass, b) transverse mass. Showing reproduction of SM as well as the in section \ref{sec:VBS} discussed dominance of QCD and EW processes. VV, Vjets, Top, ttV, Vgamma, $WZ\_EWK$, $WZ\_QCD$ are combined to $'WZ\_SM + Background'$ in later plots. For the fits $WZ\_EWK$ is used as signal.}
+    \caption{VBSSR region for a) invariant Mass, b) transverse mass. Showing reproduction of \acrshort{sm} as well as the in section \ref{sec:VBS} discussed dominance of QCD and EW processes. VV, Vjets, Top, ttV, Vgamma, $WZ\_EWK$, $WZ\_QCD$ are combined to $'WZ\_SM + Background'$ in later plots. For the fits $WZ\_EWK$ is used as signal.}
     \label{fig:SM_re}
 \end{figure}
-
-Figure \ref*{fig:SM_re} shows the cuts for the VBSSR region applied for the combined data from mc16d and mc16e with a combined luminosity of 102.7 $fb^{-1}$.
-These histograms will be combined to WZ + Background in the following Plots.
-Ideally one would use all campaigns mc16a, mc16d and mc16e with combined luminosity of 139 $fb^{-1}$ to achieve the best statistic.
-For this Analysis the EFT Samples as well as the GM resonance samples have to be included resulting in to many Branches in the TQSampleTree than
-the current ROOT version 6.14.04 used by the CAF can process.
+\pagebreak
 
 
-\begin{table}
+In order to get a valid result the \acrshort{sm} limits have to be reproduced. The samples used for this thesis where already produced before starting the thesis and no samples where produced specifically for this thesis.
+Therefore, samples used for the analysis did not use the same settings as the samples used for the \acrshort{sm} limit setting resulting in differences in the number of events in tabular \ref{tab:SM_re}.
+The \acrshort{eft} limits for the \acrshort{sm} for the ATLAS detector only use mc16a data while this analysis uses mc16d and mc16e data resulting in smaller limits since more data is used.
+The limit comparison is shown in tabular \ref{tab:asimov}.
+
+
+\begin{table}[h]
     \centering
     \begin{tabular}{ l c c c }
         \hline
@@ -102,8 +108,8 @@ the current ROOT version 6.14.04 used by the CAF can process.
         WZ SM + Background & $475.3466 \pm 3.2912$ & $165.9529 \pm 1.4050$ & $200 \pm 41$   \\
         \hline
     \end{tabular}
-    \caption{Overwiev of Events in VBSSR region. mc16a is compared to the \cite{Sampsonidou.25.11.2021} for the reproduction of the SM EFT Limits.
-        While the Resonance Fitting is done with the mc16e+mc16d data. The differences between the mc16a and the SM is like cause by some ELCore settings
+    \caption{Overwiev of Events in VBSSR region. mc16a is compared to the \cite{Sampsonidou.25.11.2021} for the reproduction of the \acrshort{sm} \acrshort{eft} Limits.
+        While the Resonance Fitting is done with the mc16e+mc16d data. The differences between the mc16a and the \acrshort{sm} is like cause by some ELCore settings
         since the cuts possible in the CAF tool where replicated.}
     \label{tab:SM_re}
 \end{table}
@@ -112,18 +118,18 @@ the current ROOT version 6.14.04 used by the CAF can process.
     \centering
     \begin{tabular}{l | c c | c }
         \hline
-                 & \multicolumn{2}{c|}{EFT Optimized binning} & SM Optimized Binnnig                  \\
-        Operator & $M(WZ)$                                    & $M_{T}(WZ)$          & $M_{T}(WZ)$    \\
+                 & \multicolumn{2}{c|}{EFT Optimized binning} & \acrshort{sm} Optimized Binnnig                  \\
+        Operator & $M(WZ)$                                    & $M_{T}(WZ)$                     & $M_{T}(WZ)$    \\
         \hline
-        S0       & [-49 , 47.4]                               & [-46 , 44.1]         & [-78 , 78]     \\
-        M0       & [-9.1 , 11.5]                              & [-9.3 , 9.65]        & [-15 , 15]     \\
-        M1       & [-16 , 15.7]                               & [-15 , 14.4]         & [-23 , 23]     \\
-        T0       & [-0.43 , 0.457]                            & [-0.38 , 0.325]      & [-1.4 , 1.4]   \\
-        T1       & [-0.82 , 0.713]                            & [-0.72 , 0.682]      & [-0.97 , 0.97] \\
-        T2       & [-2.4 , 2.16]                              & [-2.2 , 1.96]        & [-2.8 , 2.8]   \\
+        S0       & [-49 , 47.4]                               & [-46 , 44.1]                    & [-78 , 78]     \\
+        M0       & [-9.1 , 11.5]                              & [-9.3 , 9.65]                   & [-15 , 15]     \\
+        M1       & [-16 , 15.7]                               & [-15 , 14.4]                    & [-23 , 23]     \\
+        T0       & [-0.43 , 0.457]                            & [-0.38 , 0.325]                 & [-1.4 , 1.4]   \\
+        T1       & [-0.82 , 0.713]                            & [-0.72 , 0.682]                 & [-0.97 , 0.97] \\
+        T2       & [-2.4 , 2.16]                              & [-2.2 , 1.96]                   & [-2.8 , 2.8]   \\
         \hline
     \end{tabular}
-    \caption{Asmiove fit Limits for SM data with $95\%$ CL. Differences arise from the use of mc16e, mc16d data compared to the mc16a data and the use of an BSM search optimized binning compared to the SM optimized binning used in \cite{Sampsonidou.25.11.2021}}
+    \caption{Asmiov fit Limits for \acrshort{sm} data with $95\%$ CL. Differences arise from the use of mc16e, mc16d data compared to the mc16a data and the use of an \acrshort{bsm} search optimized binning compared to the \acrshort{sm} optimized binning used in \cite{Sampsonidou.25.11.2021}}
     \label{tab:asimov}
 \end{table}
 
@@ -172,8 +178,8 @@ These to equations can now be solved simultaneously leading to
 \begin{equation}
     \mu = \frac{1}{N} \sum^{N}_{i = 1} x_{i} = \overline{x} \qquad \textnormal{ and } \qquad \sigma^{2} = \frac{1}{N} \sum^{N}_{i = 1} (x_{i}-\overline{x})^{2} = n
 \end{equation}
-With this the one sigma and two sigma environment can be calculated for a negative log-likelihood function as $1\sigma=1$ and $2\sigma=4$ \cite{Erdmann.2020}
-\subsection{Likelihood ratio test}
+With this the one si\acrshort{gm}a and two si\acrshort{gm}a environment can be calculated for a negative log-likelihood function as $1\sigma=1$ and $2\sigma=4$ \cite{Erdmann.2020}
+\section{Likelihood ratio test}
 The likelihood-ratio test is used to estimate the goodness of fit based on their likelihoods. In general the denominator contains the likelihood for the entire parameter space, while numerator introduces constrains on the parameter space.
 \begin{equation}
     \lambda(\epsilon) = \frac{L(\epsilon,\overrightarrow{\Theta}_{0})}{L(\epsilon,\hat{\Theta})}
@@ -184,5 +190,5 @@ conditional maximum-likelihood estimator of $\Theta$. In case of the log-likelih
 \begin{equation}
     \lambda = -2(ln(\frac{L(A)}{L(B)})= -2(ln L(A)-ln L(B))=-2 \Delta L
 \end{equation}
-In the context of fitting in EFT $L(A)$ donates a fixed parameter while $L(B)$ donates the floating parameter. The likelihood-ratio is than plotted against the parameter values  \ref{fig:S1_with_fit_diffrence_225}.
+In the context of fitting in \acrshort{eft} $L(A)$ donates a fixed parameter while $L(B)$ donates the floating parameter. The likelihood-ratio is than plotted against the parameter values  \ref{fig:EFT_GM_Asimov_comparision}.
 \end{document}

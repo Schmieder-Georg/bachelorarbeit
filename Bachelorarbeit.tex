@@ -2,7 +2,7 @@
 \input{preamble}
 \input{glossar}
 \addbibresource{bib.bib}
-
+\pagenumbering{roman}
 \begin{document}
 
 % Titelpageseite
@@ -44,7 +44,7 @@
 % Gutachterseite
 \thispagestyle{empty}\vspace*{48em}
 
-Eingereicht am 10.~May~2022\vspace{1.5em}
+Eingereicht am 10.~Mai~2022\vspace{1.5em}
 \par{\large\begin{tabular}{ll}
         1. Gutachter: & Dr.~Frank Siegert         \\
         2. Gutachter: & Prof.~Dr.~Arno Straessner \\
@@ -58,24 +58,43 @@ Eingereicht am 10.~May~2022\vspace{1.5em}
 
 Abstract \\
 English: \\
+Experimental evidence has shown that the \acrfull{sm} is not complete theory.
+Research for \acrfull{bsm} particles are conducted at the \acrfull{lhc}. With Run 2 \acrfull{vbs} processes gained importance in the analysis of \acrfull{tgc} and \acrfull{qgc}.
+In these process new physics are theorized and several theories suggest particles with a mass lower than 1 TeV.
+An \acrfull{eft} is introduced to describe a variety of different theories. In \acrshort{eft} an effective Lagrangian is derived containing operators for high mass dimensions.
+In this thesis dim-8 \acrshort{eft} operators are investigated in the scattering of a $W^{\pm}$ and a $Z$ boson. The dim-8 operators are fitted against resonances in the range from 225 GeV to 1000 GeV.
+For studying the sensitivity the invariant mass and transverse mass are analyzed. The objective is to find the lowest resonances mass that can be described using dim-8 \acrshort{eft} operators and setting the EFT limits for these resonances.
 
-\vspace{20em}
+
+\vspace{10em}
 Abstract \\
-Deutsch \\
+Deutsch: \\
+Experimente haben gezeigt das, dass Standardmodell keine vollständige Theory ist.
+Am Large Hadron Collider wird nach Teilchen gesucht, die das Standardmodell erweitern.
+Mit Run 2 wurden Vektorbosonen Streuungen (VBS) wichtiger da sich einfach dreifach und vierfach Kopplungen untersuchen lassen.
+Diese Prozesse werden als gute Kandidaten für neue Physik gesehen und moderne Theorien schlagen neue Teilchen mit Masse kleiner als 1 TeV vor.
+Es können Effektive Feld Theorien (EFT) eingeführt werden, die eine große Anzahl dieser Theorien beschreiben können.
+In EFT wird eine effektive Lagrange Funktion definier die Operatoren mit hohen Masse Dimensionen beinhalten.
+In dieser Arbeit werden dim-8 EFT Operatoren in der Streuung von $W{\pm}$ und $Z$ Bosonen untersucht. Die dim-8 Operatoren werden an Resonanzen gefittet mit Massen zwischen 225 GeV und 1000 GeV.
+Die Sensitivität wir für die invariante Masse und die transversale Masse analysiert. Mit dem Zeil die niedrigste Masse,
+die mit dim-8 EFT Operatoren beschrieben werden kann im $W^{\pm}Z$ festzulegen und EFT Limits für diese Resonanzen zu bestimmen.
+
 
 
 % Inhaltsverzeichnis
 \tableofcontents
-
-\chapter{Introduction}
-\subfile{sections/Introduction.tex}
 \printnoidxglossary[type=acronym]
 \printacronyms
+
+\pagenumbering{arabic}
+\chapter{Introduction}
+\subfile{sections/Introduction.tex}
 
 \chapter{Experimental Setup}
 \subfile{sections/ATLAS.tex}
 
 \chapter{Theoretical Foundation}
+\label{chapter:Theory}
 \section{Effective Field Theory}
 \subfile{sections/EFT.tex}
 
@@ -86,6 +105,7 @@ Deutsch \\
 \subfile{sections/VBS.tex}
 
 \chapter{Event Selection and Statistical Method}
+\label{chapter:Event_and_stat}
 \subfile{sections/Event_selection.tex}
 
 \chapter{Results}
@@ -96,8 +116,8 @@ Deutsch \\
 
 
 \newpage
-%\nocite{*}
-%\printbibliography
+\nocite{*}
+\printbibliography
 
 \listoffigures
 \listoftables
@@ -117,4 +137,6 @@ Dresden, Mai 2022
 
 \chapter{Appendix}
 \label{sec:appendix}
+\subfile{sections/appendix.tex}
+
 \end{document}
