@@ -35,7 +35,7 @@ def plot_comp(data, x):
         plt.scatter(x, data[52:65, i], label=r'$0.5 \times \sigma_{GM}$')
         plt.legend()
         plt.xticks(x)
-        plt.title(r'$M_{T}(WZ)$ cross-section comparison for '+operator[i])
+        plt.title(r'$M(WZ)$ cross-section comparison for '+operator[i])
         plt.xlabel("GM Model [GeV]")
         plt.ylabel(r'$S = \frac{Z_{GM}(0)}{Z_{EFT}(0)}$')
         plt.savefig(
@@ -66,7 +66,7 @@ def main():
         "E:/Georg/Dokumente/Studium/bachelorarbeit/Plots/gm_relevanze/GM_relevanze.csv", sep=",", header=None)
     data = file_pandas.to_numpy()
 
-    plot_all(data, x)
+    plot_comp(data, x)
 
 
 if __name__ == "__main__":

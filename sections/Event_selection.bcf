@@ -2358,7 +2358,7 @@
     <bcf:citekey order="12">Prof.MarkusSchumacherDr.StanLai.2012</bcf:citekey>
     <bcf:citekey order="13">K.F.RILEY.</bcf:citekey>
     <bcf:citekey order="14">Erdmann.2020</bcf:citekey>
-    <bcf:citekey order="15">K.F.RILEY.</bcf:citekey>
+    <bcf:citekey order="15">Cowan.2011</bcf:citekey>
     <bcf:citekey order="16">Bittrich.27.05.2020</bcf:citekey>
     <bcf:citekey order="17">ATLASGroup.</bcf:citekey>
     <bcf:citekey order="18">Aaboud.2019b</bcf:citekey>
@@ -2368,6 +2368,7 @@
     <bcf:citekey order="22">Prof.MarkusSchumacherDr.StanLai.2012</bcf:citekey>
     <bcf:citekey order="23">K.F.RILEY.</bcf:citekey>
     <bcf:citekey order="24">Erdmann.2020</bcf:citekey>
+    <bcf:citekey order="25">Cowan.2011</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

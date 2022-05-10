@@ -4,54 +4,54 @@
 \label{sec:results}
 The \acrshort{eft} samples for each parameter S0, M0, M1, T0, T1, T2 are fitted against the combined \acrshort{sm} and \acrshort{gm} Resonance data. It is assumed that the coefficients are only affected by anomalous \acrshort{qgc} (aQGC) couplings.
 Only one coefficient is fitted at once while the other coefficients are set to zero. As discussed in section \ref{sec:EFT} good fits are expected for sufficiently high resonance mass.
-The fit can't identify small energies or high energy with small cross-sections resonances as shown in \ref{fig:S1_with_fit_diffrence_225}\footnote{Technical reasons cause the ratio plot to display the wrong errors}.
+The fit can not identify small energies or high energy with small cross-sections resonances as shown in \ref{fig:S1_with_fit_diffrence_225}\footnote{Technical reasons cause the ratio plot to display the wrong errors}.
 
 \begin{figure}[h]
     \centering
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\textwidth]{Plots/ALL_MWZ_right_color/GM_H5_225/S1/2022-05-07/VBSSR/all_VV_MWZ_vbs.pdf}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_right_color/GM_H5_225/S1/2022-05-07/VBSSR/all_VV_MTWZ.pdf}
         \caption{}
     \end{subfigure}
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\textwidth]{Plots/ALL_MWZ_right_color/GM_H5_800/S1/2022-05-07/VBSSR/all_VV_MWZ_vbs.pdf}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_right_color/GM_H5_800/S1/2022-05-07/VBSSR/all_VV_MTWZ.pdf}
         \caption{}
     \end{subfigure}
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\textwidth]{Plots/05x_for_comparision/VBSSR/all_VV_MWZ_vbs.pdf}
+        \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_right_color/GM_H5_1000/T1/2022-05-07/VBSSR/all_VV_MTWZ.pdf}
         \caption{}
     \end{subfigure}
-    \caption{\textbf{a)}The invariant Mass of the resonance has approximately the same energy as the WZ peak but for the WZ peak the \acrshort{eft} prediction
-        should be the \acrshort{sm} therefore \acrshort{eft} can't describe the 225 GeV Resonance and the coefficient fit diverges.
+    \caption{\textbf{a)}The mass of the resonance has approximately the same energy as the WZ peak but for the WZ peak the \acrshort{eft} prediction
+        should be the \acrshort{sm} therefore \acrshort{eft} can not describe the 225 GeV Resonance and the coefficient fit diverges.
         \textbf{b)}800 GeV has a high cross-section and the energy is in the region where \acrshort{sm} and \acrshort{eft} deviate therefore the coefficients can be fitted accurately.
-        \textbf{c)}1000 GeV the cross-section(scaled by 0.5) is to low the fit can produce a significant result even though the Resonance is in the right Energy region.}
+        \textbf{c)}1000 GeV the cross-section is too low the fit can not produce a significant result even though the resonance is in the right energy region.}
     \label{fig:S1_with_fit_diffrence_225}
 \end{figure}
 Evaluating which fit is good can be done qualitative by simply looking at the invariant mass plots if the \acrshort{eft} sample scaled with the best fit value is able to describe
 the resonance one can argue that the fit is good. But this is not accurately possible for resonances peaks that are higher energy than the $W^{\pm}Z$ peak, but the start of the peak is still part of the $W^{\pm}Z$ peak.\\\\
 For a quantitative analysis the significance quotient has to be calculated from the likelihood ratio $f(\mu)=-2\Delta log(L)$ where $\mu$ is the signal strength.
-The significance can be calculated using $Z(\mu)=\sqrt{f(\mu)}$ resulting in $S = \frac{Z_{GM}(0)}{Z_{EFT}(0)}$.
+The significance \cite{Cowan.2011} can be calculated using $Z(\mu)=\sqrt{f(\mu)}$ resulting in $S = \frac{Z_{GM}(0)}{Z_{EFT}(0)}$.
 Here $Z_{GM}$ is the significance when the \acrshort{gm} sample is used as coefficient in \acrshort{eft}Fun \cite{EFTfun.} and fitted with \acrshort{sm} as measurement and as prediction.
 The $Z_{EFT}$ is the fit of an \acrshort{eft} coefficient for the \acrshort{sm} combined with the \acrshort{gm} model as measurement against the \acrshort{sm} as prediction.
 $f(0)$ can be interpreted as the difference to the \acrshort{sm}, if $f(0) = 0$ only the \acrshort{sm} was measured. If $f(0)>0$ there is an \acrshort{eft}, \acrshort{gm} which is more likely than the \acrshort{sm}. For $f(0) > 4$ the \acrshort{sm} is excluded.
 The value of $\mu=0$ can be read off from the log-likelihood ratio plot in \ref{fig:EFT_GM_Asimov_comparision}. The scale is dependent on
 the operator as well as the allowed range making it difficult to estimate a read off error. The error can be minimized by looking at positive and negative extrema and limiting the range to zero as well as the shape including both extrema.
-Since the likelihood-function is continuous all plots give the same $f(0)$ value. All three ranges should be used in case only an extremum exists, or only one is recognized by the fit this is often the case for low energy resonances.
+Since the likelihood-function is continuous all plots give the same $f(0)$ value. All three ranges should be used in case only one extremum exists, or only one is recognized by the fit this is often the case for low energy resonances.
 Using this the error becomes small compared to the statistical errors. All \acrshort{eft} coefficients in \ref{fig:significans_plots} with $S>0.8$ are able to reproduce the statistical significance of the \acrshort{gm} model to more than $80\%$ certainty.
 \begin{figure}[h]
     \centering
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\textwidth]{Plots/operators/S1_asimov.pdf}
+        \includegraphics[width=\textwidth]{Plots/operators/WZ_asimov_final/MWZ/c_scan_M1.png}
         \caption{S1 Asmiov fit}
     \end{subfigure}
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\textwidth]{Plots/operators/GM_H5_700_scan_coef.pdf}
+        \includegraphics[width=\textwidth]{Plots/operators/GM_H5_MWZ_2022-04-19/GMcoef/GM_H5_800/c_scan_GM_H5_800.png}
         \caption{700 GeV GM}
     \end{subfigure}
     \begin{subfigure}{0.3\textwidth}
-        \includegraphics[width=\textwidth]{Plots/operators/S1_EFT.pdf}
+        \includegraphics[width=\textwidth]{Plots/operators/c_scan_M1}
         \caption{S1 for 700 GeV}
     \end{subfigure}
-    \caption{\textbf{a)}The best fit value is zero since the \acrshort{sm} is reproduced in the Asimov fit.
+    \caption{\textbf{a)}The best fit value is zero since the \acrshort{sm} is reproduced in the Asimov fit. \textbf{b)} The \acrshort{gm} model is used as coefficient.
         \textbf{c)} The \acrshort{sm} is excluded, and two extrema emerge from the inclusion of the quadratic operator therm.}
     \label{fig:EFT_GM_Asimov_comparision}
 \end{figure}
@@ -71,8 +71,8 @@ Using this the error becomes small compared to the statistical errors. All \acrs
 \end{figure}
 \newpage
 The result is independent of the resonance cross-section. This can be shown by scaling the resonance, in \ref{fig:corss-section-comparission} the cross-section is scaled with $2$ and $0.5$ which results in equal significance compared to the non-scaled resonances.
-The cross-section can not be scaled higher without breaking the fitting-tool as the values get unreasonably high. In the invariant mass plot for 0.5 times the cross-section, the cross-section becomes too low to be picked up by the fitting tool. In the transverse mass plot
-the resonance is shown to be picked up and described by the coefficients M0, T0, T1 this however is falls as these did not pass a qualitative analysis without scaling.
+The cross-section can not be scaled higher without breaking the fitting-tool as the values get unreasonably high. In the plots with 0.5 times the cross-section, the cross-section becomes too low to be picked up by the fitting tool.
+This happens for both the $M(WZ)$ and the $M_{T}(WZ)$ for the 1000 GeV resonance and the $M_{T}(WZ)$ for 900 GeV. Which suggests that the $M(WZ)$ will give a more accurate result for low cross-section measurements.
 \begin{figure}[h]
     \centering
     \begin{subfigure}{0.45\textwidth}
@@ -90,12 +90,7 @@ the resonance is shown to be picked up and described by the coefficients M0, T0,
 The 700 GeV sample has a significance of $0.7-0.8$ making it irrelevant for this analysis
 but with the high dependence on the binning one may be able to get a significant result by optimizing the binning. The \acrshort{eft} limits for relevant resonance masses are shown in tabular \ref{tab:inv_mass_EFT_limits}. The limits for both extrema should be equivalent but the \acrshort{eft}Fun only expects one extremum when fitting
 and therefore includes the second extremum in the $95\%$CL if the second extremum is to close to the first extremum.  In order to find both extrema the range from a minimal range to zero for the negative extremum and from zero to a positive minimal range.
-The minimal range should leave space for the fit to find the best fit value. T0 doesn't show this behaviour which is likely caused by the larger uncertainties shown in \ref{fig:all_mwz_800} and \ref{fig:all_mtwz_800}.
-A full set of all parameters and both invariant mass and transverse mass are shown in \ref{fig:all_mwz_800} and \ref{fig:all_mtwz_800} for an 800 GeV resonance as this is the resonance with the lowest energy and statistical significance. Other significant resonances are shown in the appendix \ref{sec:further_resonace}.
-For the 1000 GeV resonance the coefficients T1, T0 in the invariant mass plot as well as M0, T0, T1 in the traverse mass plots could not be fitted as the cross-section is too small.
-
-
-
+The minimal range should leave space for the fit to find the best fit value.
 \begin{table}[h]
     \centering
     \begin{tabular}{ l c c c c c c }
@@ -130,6 +125,12 @@ For the 1000 GeV resonance the coefficients T1, T0 in the invariant mass plot as
     \label{tab:inv_mass_EFT_limits}
 
 \end{table}
+T0 doesn't show this behaviour which is likely caused by the larger uncertainties shown in \ref{fig:all_mwz_800} and \ref{fig:all_mtwz_800}.
+A full set of all parameters and both invariant mass and transverse mass are shown in \ref{fig:all_mwz_800} and \ref{fig:all_mtwz_800} for an 800 GeV resonance as this is the resonance with the lowest energy and statistical significance. Other significant resonances are shown in the appendix \ref{sec:further_resonace}.
+For the 1000 GeV resonance the coefficients T1, T0 in the invariant mass plot as well as M0, T0, T1 in the traverse mass plots could not be fitted as the cross-section is too small.
+
+
+
 
 \begin{figure}[h]
 
@@ -153,7 +154,7 @@ For the 1000 GeV resonance the coefficients T1, T0 in the invariant mass plot as
         \includegraphics[width=\textwidth]{Plots/ALL_MWZ_final/GM_H5_800/T1/2022-05-07/VBSSR/all_VV_MWZ_vbs.pdf}
     \end{subfigure}
 
-    \caption{Invariant mass for parameters S1, M0, M1, T0, T1, T2 with best fit value for 800 GeV resonance}
+    \caption{Invariant mass for coefficients S1, M0, M1, T0, T1, T2 with best fit value for 800 GeV resonance}
     \label{fig:all_mwz_800}
 \end{figure}
 
@@ -179,7 +180,7 @@ For the 1000 GeV resonance the coefficients T1, T0 in the invariant mass plot as
         \includegraphics[width=\textwidth]{Plots/ALL_MTWZ_final/GM_H5_800/T1/2022-05-07/VBSSR/all_VV_MTWZ.pdf}
     \end{subfigure}
 
-    \caption{transverse mass for parameters S1, M0, M1, T0, T1, T2 with best fit value for 800 GeV resonance}
+    \caption{transverse mass for coefficients S1, M0, M1, T0, T1, T2 with best fit value for 800 GeV resonance}
     \label{fig:all_mtwz_800}
 \end{figure}
 

@@ -21,9 +21,9 @@
 \contentsline {chapter}{\nonumberline List of Figures}{37}{chapter*.27}%
 \contentsline {chapter}{\nonumberline List of Tables}{39}{chapter*.28}%
 \contentsline {chapter}{\numberline {8}Appendix}{41}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Significance of dim-8 operators}{43}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Cross-section comparison for dim-8 operators}{45}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Resonances}{47}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}900 GeV resonance}{47}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}1000 GeV resonance}{49}{subsection.8.3.2}%
+\contentsline {section}{\numberline {8.1}Relevance of dim-8 operators}{42}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Cross-section comparison for dim-8 operators}{44}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Resonances}{46}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}900 GeV resonance}{46}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}1000 GeV resonance}{48}{subsection.8.3.2}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
